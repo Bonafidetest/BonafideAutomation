@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>loginToApplication</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7f9f996-23ac-4684-9461-e5065d091c56</testCaseGuid>
+   <variable>
+      <defaultValue>'CHCSTRAIN'</defaultValue>
+      <description></description>
+      <id>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'9992'</defaultValue>
+      <description></description>
+      <id>534abf88-2c23-4bd6-b701-dfc5f691a1da</id>
+      <masked>false</masked>
+      <name>employeeNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234'</defaultValue>
+      <description></description>
+      <id>e7073a79-63c6-40e3-9649-3362b9abb996</id>
+      <masked>false</masked>
+      <name>pwd</name>
+   </variable>
+</TestCaseEntity>

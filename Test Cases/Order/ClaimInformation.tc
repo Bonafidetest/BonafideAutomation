@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ClaimInformation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>736f459f-0685-4c5c-b53c-3ba5712e0008</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>178feedb-0469-4616-ac44-59cb3d46eb41</id>
+      <masked>false</masked>
+      <name>ICD10_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99a09336-ddfc-4a6d-a7b2-fa2fd85ae385</id>
+      <masked>false</masked>
+      <name>placeofService</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1730d11f-7d05-4d2c-b23a-2e7817825d04</id>
+      <masked>false</masked>
+      <name>physicianFirstName</name>
+   </variable>
+</TestCaseEntity>

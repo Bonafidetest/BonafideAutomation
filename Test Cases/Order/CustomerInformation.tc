@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CustomerInformation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>210268d8-5149-4d7e-9ce8-269986a90bc4</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>f94686e3-71b7-4a3c-bffc-d8c2aa14a0f8</id>
+      <masked>false</masked>
+      <name>billing_Office</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a0941dd-b8ff-4ea5-9a0c-136c56e68115</id>
+      <masked>false</masked>
+      <name>orderedBy</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>8ae34d09-6cc2-4fc7-9e61-a7081d9cfa93</id>
+      <masked>false</masked>
+      <name>salesRep</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a8b52724-2287-4ee4-acb7-68077732e990</id>
+      <masked>false</masked>
+      <name>fileClaim</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b7246ab-1e35-4fb0-a8f0-7db47ce07cc7</id>
+      <masked>false</masked>
+      <name>orderClassification</name>
+   </variable>
+</TestCaseEntity>

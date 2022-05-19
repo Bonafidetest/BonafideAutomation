@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>PlaceofServices</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4c1fa24b-8ed6-40c5-b1ff-a461f389abf4</testSuiteGuid>
+   <testCaseLink>
+      <guid>24d7e5c4-52b8-45ca-91eb-1010debede4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>37831244-ee8e-469a-a5d8-a86a846949ef</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>37831244-ee8e-469a-a5d8-a86a846949ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>37831244-ee8e-469a-a5d8-a86a846949ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>37831244-ee8e-469a-a5d8-a86a846949ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>693bd461-6d34-4ab0-bb73-f6b291f1be79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Setup/Place of Service/placeofService</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3a742e7-0a64-49fa-a707-38a6b19a43f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfec9c21-ea6e-46a7-ba1c-c122b5fe060b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0875cf10-cb89-46c3-b6af-18561e106d14</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ac428f7-e87d-4720-8c7b-3f3bf2ff70f1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

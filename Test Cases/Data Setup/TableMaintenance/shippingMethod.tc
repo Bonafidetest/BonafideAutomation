@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>shippingMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe364dfe-6831-4986-a919-684c019a69a0</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST METHOD NAME'</defaultValue>
+      <description></description>
+      <id>c1898478-3acf-4e98-a9b3-b82be0cf41a5</id>
+      <masked>false</masked>
+      <name>methodName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TEST DESCRIPTION'</defaultValue>
+      <description></description>
+      <id>405fb886-ca3e-4e0a-abcc-e92ede10dae1</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>dac2f827-8742-4524-925a-fb8d93fa38bd</id>
+      <masked>false</masked>
+      <name>acctNO</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>67bfc6bf-9639-4fe7-ad5a-c349d97b5e94</id>
+      <masked>false</masked>
+      <name>uacctNo</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>billGeneration</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c9075dda-1a7f-4d78-a0a1-31de6b2f164e</testSuiteGuid>
+   <testCaseLink>
+      <guid>d147ee0c-1eec-43ba-9e12-9e442adb6ddd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0865e8be-d514-4b5a-8682-9f8c37136fde</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0865e8be-d514-4b5a-8682-9f8c37136fde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6dfb905c-165b-4cc3-9422-cc517e8e0565</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/LogOut/logoutFromApplication</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee36ed03-50b1-4c98-a5c0-9f789dabadef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Login/VIEMED_login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>842d9b06-91ef-4546-8544-64eae263fa73</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae55aee2-5a08-4d47-9ec2-af1af7f39b48</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ecc3cd39-1ee5-4140-a3c0-add74acdeacb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83b80bde-49c9-43e4-bb82-150f1753cfa8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Billing/billGeneration</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96eb6fbe-6276-4ecb-aaa2-e1fd00e1a89f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ffe917f9-6425-4190-bf67-d5f97beed39c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

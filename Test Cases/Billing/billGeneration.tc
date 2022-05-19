@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>billGeneration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a9584c8-dae8-4a7a-8595-a799b81a6018</testCaseGuid>
+   <variable>
+      <defaultValue>'1088'</defaultValue>
+      <description></description>
+      <id>96eb6fbe-6276-4ecb-aaa2-e1fd00e1a89f</id>
+      <masked>false</masked>
+      <name>orderNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ffe917f9-6425-4190-bf67-d5f97beed39c</id>
+      <masked>false</masked>
+      <name>invoiceDate</name>
+   </variable>
+</TestCaseEntity>

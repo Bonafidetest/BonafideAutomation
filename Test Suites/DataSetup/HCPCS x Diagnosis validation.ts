@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>HCPCS x Diagnosis validation</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2abb8938-792e-4800-a562-090a729a8916</testSuiteGuid>
+   <testCaseLink>
+      <guid>775cdc49-12c8-4020-a5ff-2d5c321f586f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>174913e0-31ba-405e-8785-bcf0f2771338</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>174913e0-31ba-405e-8785-bcf0f2771338</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>174913e0-31ba-405e-8785-bcf0f2771338</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>174913e0-31ba-405e-8785-bcf0f2771338</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>693a253f-62f9-459f-8c04-f4501526dd4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Setup/HCPCSDiagnosisValidation/HCPCS x Diagnosis validation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>47cfdfae-30a1-461f-9987-0dbcd71db329</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/dataSetup</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>47cfdfae-30a1-461f-9987-0dbcd71db329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RuleName</value>
+         <variableId>050acabc-09cc-4e78-9727-267e270d9d3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>47cfdfae-30a1-461f-9987-0dbcd71db329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Action</value>
+         <variableId>3eb0998c-508e-411a-a4ce-756ab07703fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>47cfdfae-30a1-461f-9987-0dbcd71db329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>HCPCSVal</value>
+         <variableId>04c31936-a35e-4a7d-b829-c77cbc6217ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>47cfdfae-30a1-461f-9987-0dbcd71db329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DiagnosisVal</value>
+         <variableId>740dbdf6-b13b-4789-872d-c3b6e5ac0c87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>47cfdfae-30a1-461f-9987-0dbcd71db329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NoOfAdd</value>
+         <variableId>93553a18-acc4-4c16-8d9f-f2364d813637</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c25af29c-970d-43fd-b5ae-8e5f434b9b89</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>47cfdfae-30a1-461f-9987-0dbcd71db329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UpdateAction</value>
+         <variableId>2641b960-6817-4d02-9a6f-24335c1c46c3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

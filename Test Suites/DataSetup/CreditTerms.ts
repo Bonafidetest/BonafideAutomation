@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CreditTerms</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>38c12329-b727-4f84-b26a-19628fe03dc2</testSuiteGuid>
+   <testCaseLink>
+      <guid>1ac283fd-077b-4a3d-98dc-a6ef9f3ea66f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>42101db2-d937-4fce-83c7-cec7a49f57b2</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>42101db2-d937-4fce-83c7-cec7a49f57b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>42101db2-d937-4fce-83c7-cec7a49f57b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>42101db2-d937-4fce-83c7-cec7a49f57b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>97c84e06-3ee4-40a4-989d-ffd21386f001</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Setup/CreditTerms/creditTerm</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>55eb541f-7c35-49f3-a374-2221a43e005b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/dataSetup</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>55eb541f-7c35-49f3-a374-2221a43e005b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CreditTerms</value>
+         <variableId>9851f10c-aac0-4886-b9c2-0629c914ebbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55eb541f-7c35-49f3-a374-2221a43e005b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CreditTermDescription</value>
+         <variableId>45c1bdf4-ca91-471a-bf33-fdcb86327910</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55eb541f-7c35-49f3-a374-2221a43e005b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CreditTermDays</value>
+         <variableId>d1a90ea2-3af1-40a5-8990-4228e431725d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DiagnosisCode</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>68854a4e-220e-418b-8e43-4f4b664e6ec2</testSuiteGuid>
+   <testCaseLink>
+      <guid>e216bd96-49a2-4c33-a1b3-e37275ae94b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ef7a8e4d-881b-4f37-98d5-d50858c0b771</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ef7a8e4d-881b-4f37-98d5-d50858c0b771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef7a8e4d-881b-4f37-98d5-d50858c0b771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef7a8e4d-881b-4f37-98d5-d50858c0b771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7787a2b-fa73-4398-be3a-e48386b78162</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Setup/DiagnosisCode/diagnosisCode</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a26a7049-fb6d-448d-8e3a-7fee5a9a9af5</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/dataSetup</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a26a7049-fb6d-448d-8e3a-7fee5a9a9af5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DiagnosisCode</value>
+         <variableId>7d7adbe7-079c-4df3-bf6a-b26851a2b87d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a26a7049-fb6d-448d-8e3a-7fee5a9a9af5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CodeDescription</value>
+         <variableId>66eb1526-e386-415e-9afe-e9b5219d7659</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

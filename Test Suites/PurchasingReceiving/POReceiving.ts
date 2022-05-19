@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>POReceiving</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>22d34396-a80b-4ff4-a475-8705f3870e82</testSuiteGuid>
+   <testCaseLink>
+      <guid>67e3e5e0-45b9-4f44-8360-e8985e399fda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>87bfa876-569c-44d0-af6d-3ed78337f8d9</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>87bfa876-569c-44d0-af6d-3ed78337f8d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>87bfa876-569c-44d0-af6d-3ed78337f8d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>87bfa876-569c-44d0-af6d-3ed78337f8d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e211934-0c53-41b7-b2e0-54bd23b4c1f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/LogOut/logoutFromApplication</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2201606c-0dfe-416b-9b3e-aea0c6526ef0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Login/VIEMED_login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>842d9b06-91ef-4546-8544-64eae263fa73</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae55aee2-5a08-4d47-9ec2-af1af7f39b48</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ecc3cd39-1ee5-4140-a3c0-add74acdeacb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a672c6a5-f0f4-4530-9695-76a839b0efe6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PurchasingReceiving/poReceiving</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>099835ba-ce90-4989-aba5-1a4499273800</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/purchaseOrder</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>099835ba-ce90-4989-aba5-1a4499273800</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Receiving PO NO</value>
+         <variableId>8e0d07af-1c78-499c-9faf-f9bae1f3da50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>099835ba-ce90-4989-aba5-1a4499273800</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Receiving PO QTY</value>
+         <variableId>e778955f-6eb2-465d-ad37-53baa38082c2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>099835ba-ce90-4989-aba5-1a4499273800</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Manifest</value>
+         <variableId>a0d02377-8902-4f94-a9da-9a62ad2d1d2e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

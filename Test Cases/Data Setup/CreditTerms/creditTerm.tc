@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>creditTerm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67696f49-18f6-44b0-a33d-757898b7205c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9851f10c-aac0-4886-b9c2-0629c914ebbd</id>
+      <masked>false</masked>
+      <name>terms</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45c1bdf4-ca91-471a-bf33-fdcb86327910</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1a90ea2-3af1-40a5-8990-4228e431725d</id>
+      <masked>false</masked>
+      <name>days</name>
+   </variable>
+</TestCaseEntity>

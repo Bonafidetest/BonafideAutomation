@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>chartOfAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90c3b981-bdf4-45e8-afb0-8733e7524082</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST ACCOUNT NAME'</defaultValue>
+      <description></description>
+      <id>23f8afea-52e3-4c8a-90da-8b181de905eb</id>
+      <masked>false</masked>
+      <name>acctName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TEST DESCRIPTION'</defaultValue>
+      <description></description>
+      <id>6d75d245-e46e-496a-ae42-7448b6964c26</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>f8e05919-c911-48d5-802f-6e96eb0505b7</id>
+      <masked>false</masked>
+      <name>export</name>
+   </variable>
+   <variable>
+      <defaultValue>'N'</defaultValue>
+      <description></description>
+      <id>9440239f-96fb-499c-9c54-f7fcf09f6245</id>
+      <masked>false</masked>
+      <name>uexport</name>
+   </variable>
+</TestCaseEntity>

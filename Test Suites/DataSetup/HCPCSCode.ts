@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>HCPCSCode</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5ce338ee-d9a9-48af-bc5b-1d665e476f02</testSuiteGuid>
+   <testCaseLink>
+      <guid>eb622c63-5269-4d2f-8a8c-15530645c9b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b71a78cf-75bf-48dd-b79e-70a33f862ddc</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b71a78cf-75bf-48dd-b79e-70a33f862ddc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b71a78cf-75bf-48dd-b79e-70a33f862ddc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b71a78cf-75bf-48dd-b79e-70a33f862ddc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>852f1a38-9845-448e-ae40-8e2b4acd29db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Setup/HCPCSCode/HCPCSCODE</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dc78b930-2a4a-41ec-be2e-b3ece8c8791b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/dataSetup</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>dc78b930-2a4a-41ec-be2e-b3ece8c8791b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>HCPCS Code</value>
+         <variableId>fd056310-c064-477b-b020-a281708febf8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc78b930-2a4a-41ec-be2e-b3ece8c8791b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>fa970579-ad01-4309-bcf7-9911df2f2a87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a72a69d-92ea-431e-97fe-e19995e8e85e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f7bc2d4-4abe-4fbd-abfa-fb0bde69aba3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d9f1caf0-577c-450e-9e80-dba2002f9994</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>invoicePayment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e86e66d-6119-4812-b9cb-d6027aff4e96</testCaseGuid>
+   <variable>
+      <defaultValue>'INVOICE PAYMENT'</defaultValue>
+      <description></description>
+      <id>e90eb27b-15a4-47eb-a1bc-d66bb0db7754</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4c6533a-a879-480c-980d-58d7ef558e80</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'46'</defaultValue>
+      <description></description>
+      <id>1032d31a-dec3-4960-9e20-98d4b3923512</id>
+      <masked>false</masked>
+      <name>invoiceNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'INSURANCE COMPANY'</defaultValue>
+      <description></description>
+      <id>f1efa193-95e9-4a84-a74e-f9fd0de896be</id>
+      <masked>false</masked>
+      <name>payor</name>
+   </variable>
+   <variable>
+      <defaultValue>'AETNA COMMERCIAL TEST'</defaultValue>
+      <description></description>
+      <id>3ad57d35-6f4e-4cd2-9f26-1b8adba23236</id>
+      <masked>false</masked>
+      <name>insuranceCompany</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc12cd79-d4e1-4b7c-8ab7-e349a5c075df</id>
+      <masked>false</masked>
+      <name>customerId</name>
+   </variable>
+   <variable>
+      <defaultValue>'TEST'</defaultValue>
+      <description></description>
+      <id>fde63108-78e5-438e-be3c-fff41f719cd2</id>
+      <masked>false</masked>
+      <name>paymentNote</name>
+   </variable>
+   <variable>
+      <defaultValue>'CASH'</defaultValue>
+      <description></description>
+      <id>865cbc51-d218-4925-b7a5-ba024116af9d</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>e8955feb-70b1-4e3a-8d54-fdd96f953ab6</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+</TestCaseEntity>

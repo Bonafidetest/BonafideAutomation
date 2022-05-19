@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>placeofService</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28a81954-c576-4c5b-8cc6-905cfdcc683e</testCaseGuid>
+   <variable>
+      <defaultValue>'88'</defaultValue>
+      <description></description>
+      <id>f3a742e7-0a64-49fa-a707-38a6b19a43f8</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'TEST DESC'</defaultValue>
+      <description></description>
+      <id>bfec9c21-ea6e-46a7-ba1c-c122b5fe060b</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0875cf10-cb89-46c3-b6af-18561e106d14</id>
+      <masked>false</masked>
+      <name>udescription</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ac428f7-e87d-4720-8c7b-3f3bf2ff70f1</id>
+      <masked>false</masked>
+      <name>utermdate</name>
+   </variable>
+</TestCaseEntity>

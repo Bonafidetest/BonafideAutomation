@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>claimFilingGroup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4809162-6ccd-4ea2-a7bc-3db94eb4b92e</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST GROUP'</defaultValue>
+      <description></description>
+      <id>11b7442f-069e-4ef8-990c-dfa713b0f9e5</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'AFFINITY HEALTH PLAN - MM'</defaultValue>
+      <description></description>
+      <id>10151f75-e236-4e2e-8285-59e9df4af942</id>
+      <masked>false</masked>
+      <name>insurance1</name>
+   </variable>
+   <variable>
+      <defaultValue>'CENTERCARE HEALTH PLAN'</defaultValue>
+      <description></description>
+      <id>1b1f9de9-4a1f-4aeb-9b05-f2c046bcecff</id>
+      <masked>false</masked>
+      <name>insurance2</name>
+   </variable>
+</TestCaseEntity>

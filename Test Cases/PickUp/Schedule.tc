@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Schedule</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0002970-427a-4dc8-a2da-6186a0d9ae13</testCaseGuid>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>03f0be41-c1bb-4b19-b635-eafb39b3abeb</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>f1a5c56a-77dc-4733-808d-ecc7cc92f9ac</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'10042'</defaultValue>
+      <description></description>
+      <id>5bf933b4-263a-4665-8da8-97f4f2d16894</id>
+      <masked>false</masked>
+      <name>customerId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c37ed1d-89c7-4484-8ccb-532f372887b8</id>
+      <masked>false</masked>
+      <name>SSN</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0677b1a6-caf0-44ea-9395-42760a5ec86f</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+</TestCaseEntity>

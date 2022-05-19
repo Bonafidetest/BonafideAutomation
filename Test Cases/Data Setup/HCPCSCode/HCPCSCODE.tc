@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HCPCSCODE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>843b963b-f073-409e-9901-aa3d3341d870</testCaseGuid>
+   <variable>
+      <defaultValue>'0001D'</defaultValue>
+      <description></description>
+      <id>fd056310-c064-477b-b020-a281708febf8</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'TEST DESC'</defaultValue>
+      <description></description>
+      <id>fa970579-ad01-4309-bcf7-9911df2f2a87</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a72a69d-92ea-431e-97fe-e19995e8e85e</id>
+      <masked>false</masked>
+      <name>termdate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1f7bc2d4-4abe-4fbd-abfa-fb0bde69aba3</id>
+      <masked>false</masked>
+      <name>udescription</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d9f1caf0-577c-450e-9e80-dba2002f9994</id>
+      <masked>false</masked>
+      <name>utermdate</name>
+   </variable>
+</TestCaseEntity>

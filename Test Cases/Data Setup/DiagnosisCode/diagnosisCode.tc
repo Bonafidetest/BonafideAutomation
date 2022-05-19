@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>diagnosisCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afe22a38-460c-4733-bfc6-d3b09b3943e1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d7adbe7-079c-4df3-bf6a-b26851a2b87d</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66eb1526-e386-415e-9afe-e9b5219d7659</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

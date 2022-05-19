@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>OrderChecklist</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2aad9292-647f-49a4-944b-423c5d4ff727</testSuiteGuid>
+   <testCaseLink>
+      <guid>67fead92-0bce-499b-9768-21f1e4f5f239</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>630b8634-ebe5-4415-bceb-0c78e60b49d3</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>630b8634-ebe5-4415-bceb-0c78e60b49d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>630b8634-ebe5-4415-bceb-0c78e60b49d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>630b8634-ebe5-4415-bceb-0c78e60b49d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f90a20ff-bdf1-4c84-878f-f54515c2192f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Setup/OrderChecklist/orderchecklist</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ddc54d61-c4a3-4638-8536-f3047abcc7ed</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/dataSetup</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ddc54d61-c4a3-4638-8536-f3047abcc7ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Order Checklist Item</value>
+         <variableId>611026e9-f27b-412f-8fa3-0fd1b6f53fbe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ddc54d61-c4a3-4638-8536-f3047abcc7ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Recurring</value>
+         <variableId>12940ced-b34a-4921-ab38-b7e3e0652736</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ddc54d61-c4a3-4638-8536-f3047abcc7ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Timming</value>
+         <variableId>b4b66449-7e87-44a5-9787-be813d5eb990</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

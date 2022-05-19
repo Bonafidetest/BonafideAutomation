@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>poReceiving</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43d3ed3d-6bf8-4d26-bb95-d94e735536fa</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e0d07af-1c78-499c-9faf-f9bae1f3da50</id>
+      <masked>false</masked>
+      <name>poNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e778955f-6eb2-465d-ad37-53baa38082c2</id>
+      <masked>false</masked>
+      <name>qtY</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0d02377-8902-4f94-a9da-9a62ad2d1d2e</id>
+      <masked>false</masked>
+      <name>manifest</name>
+   </variable>
+</TestCaseEntity>

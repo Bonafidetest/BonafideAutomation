@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>orderchecklist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40d9cfda-9a04-470c-91a2-60e489a781cc</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Check list'</defaultValue>
+      <description></description>
+      <id>611026e9-f27b-412f-8fa3-0fd1b6f53fbe</id>
+      <masked>false</masked>
+      <name>checklistItem</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>12940ced-b34a-4921-ab38-b7e3e0652736</id>
+      <masked>false</masked>
+      <name>recurring</name>
+   </variable>
+   <variable>
+      <defaultValue>'Billing'</defaultValue>
+      <description></description>
+      <id>b4b66449-7e87-44a5-9787-be813d5eb990</id>
+      <masked>false</masked>
+      <name>timming</name>
+   </variable>
+</TestCaseEntity>

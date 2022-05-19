@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ClaimFilingGroup</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ea7062d0-02de-4938-9c00-e25b61093604</testSuiteGuid>
+   <testCaseLink>
+      <guid>d14c7288-8f3a-4016-ae58-d98fad3c1dfb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>30fa80d9-2c79-4a6b-962c-0119a7ebdc7c</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>30fa80d9-2c79-4a6b-962c-0119a7ebdc7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
+         <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>30fa80d9-2c79-4a6b-962c-0119a7ebdc7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
+         <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>30fa80d9-2c79-4a6b-962c-0119a7ebdc7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>93c1f37f-0d3f-4e1b-a005-575566e71c62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Setup/ClaimFilingGroup/claimFilingGroup</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d44e6411-4a82-48cd-a931-f1a007a70f21</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/dataSetup</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d44e6411-4a82-48cd-a931-f1a007a70f21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>GroupName</value>
+         <variableId>11b7442f-069e-4ef8-990c-dfa713b0f9e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d44e6411-4a82-48cd-a931-f1a007a70f21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Insurance1</value>
+         <variableId>10151f75-e236-4e2e-8285-59e9df4af942</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d44e6411-4a82-48cd-a931-f1a007a70f21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Insurance2</value>
+         <variableId>1b1f9de9-4a1f-4aeb-9b05-f2c046bcecff</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

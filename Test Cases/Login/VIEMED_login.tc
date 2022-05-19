@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VIEMED_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fefecf7f-f668-4b9f-97f3-5b8d83a4035e</testCaseGuid>
+   <variable>
+      <defaultValue>'VIEMEDTRAIN'</defaultValue>
+      <description></description>
+      <id>842d9b06-91ef-4546-8544-64eae263fa73</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'9992'</defaultValue>
+      <description></description>
+      <id>ae55aee2-5a08-4d47-9ec2-af1af7f39b48</id>
+      <masked>false</masked>
+      <name>employeeNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234'</defaultValue>
+      <description></description>
+      <id>ecc3cd39-1ee5-4140-a3c0-add74acdeacb</id>
+      <masked>false</masked>
+      <name>pwd</name>
+   </variable>
+</TestCaseEntity>
