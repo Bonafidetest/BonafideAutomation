@@ -52,7 +52,7 @@ if (orderNumber == '') {
     //String xpath = "(//a/b[contains(text(),'"+orderNumber+"')])"
 } else {
 	WebUI.delay(3)
-    WebUI.setText(findTestObject('Object Repository/Billing/orderNo'), GlobalVariable.billing_Orderno)
+    WebUI.setText(findTestObject('Object Repository/Billing/orderNo'), orderNumber)
 
     WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/searchButton'))
 
@@ -93,7 +93,7 @@ if (orderNumber == '') {
 
         WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/processButton'))
 
-         WebUI.delay(10)
+        WebUI.delay(10)
 
         WebUI.click(findTestObject('Object Repository/Billing/processButton'))
 

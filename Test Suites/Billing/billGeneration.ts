@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/customerInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>0865e8be-d514-4b5a-8682-9f8c37136fde</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -49,12 +50,14 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/LogOut/logoutFromApplication</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ee36ed03-50b1-4c98-a5c0-9f789dabadef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Login/VIEMED_login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -79,16 +82,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Billing/billGeneration</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4ddde457-45c0-48cb-b2a3-c769fb26386f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/billing</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4ddde457-45c0-48cb-b2a3-c769fb26386f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Order Number</value>
          <variableId>96eb6fbe-6276-4ecb-aaa2-e1fd00e1a89f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4ddde457-45c0-48cb-b2a3-c769fb26386f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>InvoiceDate</value>
          <variableId>ffe917f9-6425-4190-bf67-d5f97beed39c</variableId>
       </variableLink>
    </testCaseLink>

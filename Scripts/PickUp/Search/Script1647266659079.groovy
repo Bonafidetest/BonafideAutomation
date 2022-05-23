@@ -74,7 +74,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Pickup/Search/div_S
 WebUI.verifyElementVisible(findTestObject('Object Repository/Pickup/Search/td_Delete'))
 
 /**********************************Search******************************/
-if(PickupNo != '')
+if(GlobalVariable.pickupNo != '')
 	WebUI.setText(findTestObject('Object Repository/Pickup/Search/input_pickupNo'), GlobalVariable.pickupNo)
 if(Office !='')
 	WebUI.selectOptionByLabel(findTestObject('Object Repository/Pickup/Search/select_Office'), Office, false)

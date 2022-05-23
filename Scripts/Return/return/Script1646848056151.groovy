@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.util.Date as Date
+import java.util.concurrent.TimeUnit as TimeUnit
+
 /*Click on Return*/
 WebUI.switchToDefaultContent()
 
@@ -50,16 +54,42 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Return/button_Searc
 
 /***********************Search****************************/
 if(orderNo !='')
-	WebUI.setText(findTestObject('Object Repository/Return/input_order_No'), orderNo)
-if(customerId !='')
-	WebUI.setText(findTestObject('Object Repository/Return/input_Customer_Id'), customerId)
-if(lastName !='')
-	WebUI.setText(findTestObject('Object Repository/Return/input_Customer_Last_Name'), lastName)
-if(lotSerialNo !='')
-	WebUI.setText(findTestObject('Object Repository/Return/input_Lot_Serial'), lotSerialNo)
-if(SKU !='')
-	WebUI.setText(findTestObject('Object Repository/Return/input_SKU'), SKU)
-WebUI.click(findTestObject('Object Repository/Return/button_Search'))
+	{
+		WebUI.setText(findTestObject('Object Repository/Return/input_order_No'), orderNo)
+		if(customerId !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_Customer_Id'), customerId)
+		if(lastName !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_Customer_Last_Name'), lastName)
+		if(lotSerialNo !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_Lot_Serial'), lotSerialNo)
+		if(SKU !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_SKU'), SKU)
+			
+		WebUI.click(findTestObject('Object Repository/Return/button_Search'))
+	}
+	else
+	{
+		if(customerId !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_Customer_Id'), customerId)
+		if(lastName !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_Customer_Last_Name'), lastName)
+		if(lotSerialNo !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_Lot_Serial'), lotSerialNo)
+		if(SKU !='')
+			WebUI.setText(findTestObject('Object Repository/Return/input_SKU'), SKU)
+			
+		WebUI.click(findTestObject('Object Repository/Return/button_Search'))
+		
+		if(WebUI.verifyElementVisible(findTestObject('Object Repository/ReuseableObjects/searchResult'), FailureHandling.OPTIONAL))
+		{
+			WebUI.verifyElementVisible(findTestObject('Object Repository/Return/td_CustomerName'))
+			WebUI.click(findTestObject('Object Repository/ReuseableObjects/searchResult'))
+		}
+		else
+			System.out.println("Return Search Result not found")
+		
+	}
+
 
 /****************************************Verification*************************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Return/legend_Returning_Items'))
@@ -81,8 +111,16 @@ if(WebUI.verifyEqual(alertText, ' There are no items to be returned. Please ente
 	
 WebUI.delay(5)
 
-if(decaseDate !='')
-	WebUI.setText(findTestObject('Object Repository/Return/input_PatientDecasedDate'), decaseDate)
+SimpleDateFormat formatter = new SimpleDateFormat('MMddyyyy')
+
+Date date = new Date()
+
+String currentdate = formatter.format(date)
+
+System.out.println(currentdate)
+
+//if(decaseDate !='')
+	WebUI.setText(findTestObject('Object Repository/Return/input_PatientDecasedDate'), currentdate)
 if(returnReason !='')
 	WebUI.setText(findTestObject('Object Repository/Return/input_ReturnReason'), returnReason)
 if(returnQty !='' && returnQty>0)
@@ -94,11 +132,16 @@ else
 	System.out.print("Return Qty is zero or blank")
 WebUI.click(findTestObject('Object Repository/Return/button_SaveAndConfirm'))
 
-WebUI.delay(15)
+WebUI.delay(20)
+WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
-WebUI.closeWindowTitle('Microsoft Word - MedEQ Invoice.doc', FailureHandling.OPTIONAL)
+WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
+WebUI.delay(20)
+WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
 
 /**********************************Verify Return Confirmation**************************/
+WebUI.switchToDefaultContent(FailureHandling.OPTIONAL)
+
 
 if(WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'))
@@ -108,11 +151,14 @@ else
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'), 10)
 		WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'))
 	}
-
+	
+WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10, FailureHandling.OPTIONAL)
+	
+WebUI.delay(20)
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderNo'))
 WebUI.setText(findTestObject('Object Repository/Order/Order Inquiry/orderNo'), orderNo)
-WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/searchbutton'))
-
+WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/button_Search1'))
+WebUI.delay(5)
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderAction'))
 WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderAction'))
 

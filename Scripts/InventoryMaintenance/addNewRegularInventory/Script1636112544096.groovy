@@ -73,6 +73,8 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/InventoryMaintenance
 
 WebUI.click(findTestObject('Object Repository/InventoryMaintenance/regularInventory/submitButton'))
 
+WebUI.delay(10)
+
 /*Inventory Details*/
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
@@ -86,7 +88,13 @@ WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDe
 
 WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/Hcpcs'), Hcpcs)
 
+WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/description'))
+
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/description'), description)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/equipmentType'), equipmentType)
 
@@ -219,7 +227,7 @@ WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDe
 
 WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/color'), color)
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/serviceGroup'), serviceGroup)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/serviceGroup'), serviceGroup, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/commCost'), commcost)
 
@@ -265,7 +273,7 @@ if(requiresRepairsOrInstalation.equals("YES"))
 	
 WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/confirmButton'))
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 if(companyName.equals("MEDSOUTHTRAIN"))
 {
@@ -281,6 +289,10 @@ if(companyName.equals("MEDSOUTHTRAIN"))
 		
 		WebUI.dismissAlert()
 	}
+}
+else if(companyName.equals("CHCSTRAIN"))
+{
+	WebUI.dismissAlert()
 }
 else
 {

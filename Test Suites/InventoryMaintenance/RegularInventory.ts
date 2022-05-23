@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/customerInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>31112d33-5cc6-48a3-a9ff-2bc88d0a7551</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -49,6 +50,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Login/VIEMED_login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -73,6 +75,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/LogOut/logoutFromApplication</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6ad8126f-fbd8-497e-b90c-fab3a7f4b676</guid>
@@ -88,6 +91,7 @@
          </iterationEntity>
          <testDataId>Data Files/regularInventory</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>435b892e-02da-4bbc-8023-90589b3d4309</testDataLinkId>
          <type>DATA_COLUMN</type>

@@ -15,23 +15,40 @@
       <guid>2e0eb6cb-49f7-44df-aaf4-e4d7f48f7d1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'CHCSTRAIN'</defaultValue>
+         <description></description>
+         <id>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</id>
+         <masked>false</masked>
+         <name>company</name>
+      </iterationNameVariable>
       <testCaseId>Test Cases/Login/loginToApplication</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>07b51dcb-818f-4716-a896-8fdab81e64d6</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/customerInfo</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>07b51dcb-818f-4716-a896-8fdab81e64d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Company Name</value>
          <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>07b51dcb-818f-4716-a896-8fdab81e64d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserID</value>
          <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>07b51dcb-818f-4716-a896-8fdab81e64d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
          <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
       </variableLink>
    </testCaseLink>
@@ -40,34 +57,44 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/PickUp/Schedule</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ba26dcc9-4334-40fb-9ae5-a97c4652040d</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Order/orderCreation</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ba26dcc9-4334-40fb-9ae5-a97c4652040d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PLName</value>
          <variableId>03f0be41-c1bb-4b19-b635-eafb39b3abeb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ba26dcc9-4334-40fb-9ae5-a97c4652040d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PFName</value>
          <variableId>f1a5c56a-77dc-4733-808d-ecc7cc92f9ac</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ba26dcc9-4334-40fb-9ae5-a97c4652040d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PCUSID</value>
          <variableId>5bf933b4-263a-4665-8da8-97f4f2d16894</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ba26dcc9-4334-40fb-9ae5-a97c4652040d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PSSN</value>
          <variableId>6c37ed1d-89c7-4484-8ccb-532f372887b8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ba26dcc9-4334-40fb-9ae5-a97c4652040d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PPHNO</value>
          <variableId>0677b1a6-caf0-44ea-9395-42760a5ec86f</variableId>
       </variableLink>
    </testCaseLink>
@@ -75,53 +102,70 @@
       <guid>978a29a9-4709-4913-8691-f24934a82b4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'103504'</defaultValue>
+         <description></description>
+         <id>a3076801-f1f8-4302-ae4d-ef159bcb293e</id>
+         <masked>false</masked>
+         <name>PickupNo</name>
+      </iterationNameVariable>
       <testCaseId>Test Cases/PickUp/Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Order/orderCreation</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Poffice</value>
          <variableId>a3076801-f1f8-4302-ae4d-ef159bcb293e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Poffice</value>
          <variableId>3d6d617c-7182-4468-b317-95f3ef8206e5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PPersonCallin</value>
          <variableId>da9b949f-cff7-4d8e-b0b7-769750098565</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PEmpNoName</value>
          <variableId>05a8900c-26f5-4be8-b7b0-3f32b4a10b02</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>POrderNO</value>
          <variableId>8c6a8fa4-695b-4386-acfc-8cd9e07aeb5d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Ppatient</value>
          <variableId>8600f567-0b7f-4eab-ae79-4cb298f2db74</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PScheduleDayAfter</value>
          <variableId>5e384cb3-e880-4d30-8351-5ae4ccb862c0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>cb3f8406-e9ae-42b5-a14d-0aa55a4e73bc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PScheduleDayBefore</value>
          <variableId>c5a3bdec-1805-4deb-be4a-95e0b5cf96b3</variableId>
       </variableLink>
    </testCaseLink>
