@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_HEALTH SYSTEM SERVICES - ALBANY</name>
+   <tag></tag>
+   <elementGuidId>3a576339-dbf0-4eef-87c0-e31d82634d3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='n0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#n0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a73fda94-2eb5-4642-af81-6f7e702646f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>n0</value>
+      <webElementGuid>1510e42f-1ca2-478b-b690-891584852c52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alignTop horiPad6 vertPad4 ariBlkLft12 uppercase</value>
+      <webElementGuid>3fc6f46e-068e-4aa9-bd54-86a53a80fc1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmouseover</name>
+      <type>Main</type>
+      <value>chgColor('o0', 'EEEEEE'); chgColor('n0', 'EEEEEE'); chgColor('c0', 'EEEEEE');</value>
+      <webElementGuid>970a6581-02b9-46c6-ae37-078e1889f04d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmouseout</name>
+      <type>Main</type>
+      <value>chgColor('o0', 'FFFFFF'); chgColor('n0', 'FFFFFF'); chgColor('c0', 'FFFFFF');</value>
+      <webElementGuid>1511529c-8b36-4d39-826a-83001842338d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HEALTH SYSTEM SERVICES - ALBANY</value>
+      <webElementGuid>b154d4c6-a94c-4ad3-bb24-d235d4c8098d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;n0&quot;)</value>
+      <webElementGuid>e015f378-1ae2-45db-bde7-6b7fcf82d125</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='n0']</value>
+      <webElementGuid>6e873927-13fb-4e55-b807-4ce60976c6f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALNY'])[1]/following::div[1]</value>
+      <webElementGuid>97b4911a-5f48-4486-97aa-171b7e9fa2a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::div[2]</value>
+      <webElementGuid>03813444-3da2-4eca-bd6f-a8efd3edbdef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALBANY'])[1]/preceding::div[1]</value>
+      <webElementGuid>13f0739b-f85c-4366-967a-dd1ac8972339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANY'])[1]/preceding::div[2]</value>
+      <webElementGuid>4d524bfc-b426-4b0d-8058-3918b9bb88a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='HEALTH SYSTEM SERVICES - ALBANY']/parent::*</value>
+      <webElementGuid>8264a35a-a2cd-4af8-aabc-26032bac0185</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a/div</value>
+      <webElementGuid>d7bfaa6e-28b3-477a-842a-0c932f0f38e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'n0' and (text() = 'HEALTH SYSTEM SERVICES - ALBANY' or . = 'HEALTH SYSTEM SERVICES - ALBANY')]</value>
+      <webElementGuid>cbd4618f-2211-4253-9d47-09596a1eb173</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

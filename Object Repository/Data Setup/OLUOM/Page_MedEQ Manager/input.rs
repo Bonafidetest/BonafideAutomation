@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input</name>
+   <tag></tag>
+   <elementGuidId>75a5f124-41cf-4b08-becc-98732c3a6ab7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='I am Sure']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type=&quot;button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>dd1cef17-ae0b-4074-9451-6ce4759acc7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>328e976c-c4fe-4095-aa1d-692070dd211a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>I am Sure</value>
+      <webElementGuid>d8ddb280-c11c-4e83-b4b9-11d9cbe95f80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>formDecision_Submit();</value>
+      <webElementGuid>7e03c1ed-7385-46fa-87c2-63d67f484ef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;horiMargin10 vertMargin10&quot;]/form[1]/table[@class=&quot;tableClps noBorder&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;tableClps noBorder&quot;]/tbody[1]/tr[3]/td[@class=&quot;topPad4 lftPad3 btmPad9 rgtPad9 alignTop&quot;]/table[@class=&quot;tableClps noBorder&quot;]/tbody[1]/tr[8]/td[@class=&quot;rgtPad5&quot;]/input[1]</value>
+      <webElementGuid>f8d52f35-418a-464e-a49f-a8e048a7cd57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='I am Sure']</value>
+      <webElementGuid>69559f18-f7ef-4a4f-bb55-c5ea13a9c71e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[8]/td/input</value>
+      <webElementGuid>01641d60-6db2-42b6-9231-390da560ba57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button']</value>
+      <webElementGuid>f568fc50-4e53-4307-b09c-d56bad3958d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

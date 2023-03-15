@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Order Step Setup</name>
+   <tag></tag>
+   <elementGuidId>d512737f-c8bf-4d18-9774-c4d1c19b536d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/nav/div[19]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8f22b0b3-702c-4a83-b881-4cc02f8fe078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>db px-sm py-xs td-none gray-dark hov-bg-primary hov-white</value>
+      <webElementGuid>08c5c844-baf5-4453-9b67-4db999081bd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/meds/servlet/com.meds.highend.servlet.HighEnd</value>
+      <webElementGuid>4cc688a2-3582-4e5d-8c20-2fb1c75c3eff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>1dcdc61b-eb78-478a-bd65-588b075022fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order Step Setup</value>
+      <webElementGuid>941a767c-f95c-4f81-bcfd-bc21b04ea624</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showSidebar&quot;)/div[@class=&quot;sidebar-placeholder&quot;]/div[1]/div[1]/nav[@class=&quot;pb-lg&quot;]/div[1]/div[1]/nav[1]/div[3]/div[1]/nav[@class=&quot;db&quot;]/div[19]/a[@class=&quot;db px-sm py-xs td-none gray-dark hov-bg-primary hov-white&quot;]</value>
+      <webElementGuid>cbef89ff-3140-497b-9d92-289993f75049</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/nav/div[19]/a</value>
+      <webElementGuid>b7cfe6cd-c9a0-4c69-85b2-d7455a4bbee6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Order Step Setup')]</value>
+      <webElementGuid>5fda6fe5-e6fe-4718-b6ed-0c929198651c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Claim Filing Group'])[1]/following::a[1]</value>
+      <webElementGuid>5263dc7f-bccf-4180-aa51-8fef58968f2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Source of Business'])[1]/following::a[2]</value>
+      <webElementGuid>296f5073-39f8-4796-bb84-3d61e62687a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collection Letter'])[1]/preceding::a[1]</value>
+      <webElementGuid>76290983-bb32-4e6e-a63c-12c4e99aa491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HCPCS x Diagnosis validation'])[1]/preceding::a[2]</value>
+      <webElementGuid>70673ea1-ac5c-430b-aba3-8126eaa56214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Order Step Setup']/parent::*</value>
+      <webElementGuid>6876831f-3252-428c-abbc-fc4c47c31641</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/meds/servlet/com.meds.highend.servlet.HighEnd')]</value>
+      <webElementGuid>e50a65e2-b9d2-4065-8992-9fc4a1ff869d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/nav/div[19]/a</value>
+      <webElementGuid>0d715272-c4bd-489e-b877-a789c4ce7443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/meds/servlet/com.meds.highend.servlet.HighEnd' and (text() = 'Order Step Setup' or . = 'Order Step Setup')]</value>
+      <webElementGuid>a6b926c4-85c5-40d8-b9e6-6ccc8a31960f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

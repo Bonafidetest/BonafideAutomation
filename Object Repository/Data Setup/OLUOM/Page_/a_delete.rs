@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_delete</name>
+   <tag></tag>
+   <elementGuidId>e9258b05-f6e3-4e5b-9961-59d100c027b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'delete')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fd45ea3e-0cd8-4656-8344-dfe2b881e3a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:formOluomMain_DeleteItem('TEST546', 'SAFWRA', 'BX', 'EA');</value>
+      <webElementGuid>03337af8-152b-4d5d-82a3-a98af2c1d1cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>green clickButton</value>
+      <webElementGuid>37e4b303-b744-456f-a272-f4a5534229f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>delete</value>
+      <webElementGuid>23d59f1d-ed41-4da9-a4d6-c52d3a8d86af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bg-gray-lightest&quot;]/form[1]/table[@class=&quot;tableClps noBorder&quot;]/tbody[1]/tr[1]/td[2]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[4]/td[@class=&quot;solidBlk1&quot;]/a[@class=&quot;green clickButton&quot;]</value>
+      <webElementGuid>69d9b112-65c4-4565-b629-50f9248cb29f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Data Setup/OLUOM/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>116211c1-ac58-49bc-8c99-004075b13c5e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'delete')]</value>
+      <webElementGuid>d6cad589-d67b-4ee5-94ec-5d33cc1531c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EA'])[1]/following::a[1]</value>
+      <webElementGuid>cb8c5475-6533-4807-a6d9-917a779233d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BX'])[1]/following::a[2]</value>
+      <webElementGuid>2ba666f0-816a-40ef-8875-6e677433afde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='delete']/parent::*</value>
+      <webElementGuid>5858a5e2-8002-47d0-9378-34d890f05bed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:formOluomMain_DeleteItem('TEST546', 'SAFWRA', 'BX', 'EA');&quot;)]</value>
+      <webElementGuid>3dbec386-ef89-41b3-8f9e-5b7a90d5545c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/a</value>
+      <webElementGuid>dab30373-a5a5-4e52-ae20-2180ab0917e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = concat(&quot;javascript:formOluomMain_DeleteItem(&quot; , &quot;'&quot; , &quot;TEST546&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;SAFWRA&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;BX&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;EA&quot; , &quot;'&quot; , &quot;);&quot;) and (text() = 'delete' or . = 'delete')]</value>
+      <webElementGuid>4752d82c-ffc4-4417-8cae-9678f9013076</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

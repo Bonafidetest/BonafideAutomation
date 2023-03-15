@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Submit_far fa-check mr-xxs</name>
+   <tag></tag>
+   <elementGuidId>293f975d-ffa7-4b25-81e2-6a3ed1178358</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.far.fa-check.mr-xxs</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5c2a19fb-878a-48d1-82fd-155d46dcdfcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>far fa-check mr-xxs</value>
+      <webElementGuid>16816da5-6715-43b4-81bc-fdf73524fa18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;horiMargin10 vertMargin10&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[3]/td[@class=&quot;alignBtm alignRgt btmPad10 rgtpad10&quot;]/button[@class=&quot;button button-xs button-success button-outline mr-xs&quot;]/i[@class=&quot;far fa-check mr-xxs&quot;]</value>
+      <webElementGuid>78bdd0c4-d8c4-4d39-85e9-c4c9e7cec12c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>b349a042-c3e6-4f0f-85e5-7cd62e447afb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

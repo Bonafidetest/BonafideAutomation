@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Oluom Data Setup</name>
+   <tag></tag>
+   <elementGuidId>23facf87-cc12-424f-975a-df055903f093</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/nav/div[28]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>93aa08e4-b034-4b5c-9179-f3a4f568bf93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>db px-sm py-xs td-none gray-dark hov-bg-primary hov-white</value>
+      <webElementGuid>f1301fb5-b244-4114-965c-912271253daf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/meds/servlet/com.meds.cust.servlet.OluomSrch</value>
+      <webElementGuid>5cd12d50-9b6f-4a38-8652-b086c739dae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>edc6be37-a29d-4d9c-b27b-8c318ad9786d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Oluom Data Setup</value>
+      <webElementGuid>747dc2d6-d164-4e00-a625-192dd9a368b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showSidebar&quot;)/div[@class=&quot;sidebar-placeholder&quot;]/div[1]/div[1]/nav[@class=&quot;pb-lg&quot;]/div[1]/div[1]/nav[1]/div[3]/div[1]/nav[@class=&quot;db&quot;]/div[28]/a[@class=&quot;db px-sm py-xs td-none gray-dark hov-bg-primary hov-white&quot;]</value>
+      <webElementGuid>93ba96f2-c228-48d4-8d6a-762606dcc0fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/nav/div[28]/a</value>
+      <webElementGuid>57ad5da6-b56d-4ac1-8b91-7a0fc253896a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Oluom Data Setup')]</value>
+      <webElementGuid>57bdc344-6bbc-45d4-9ee4-019a3cc4f8fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internal Billing Code'])[1]/following::a[1]</value>
+      <webElementGuid>735e2434-3532-411b-887b-e04ddbe59084</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guarantor Home Plan'])[1]/following::a[2]</value>
+      <webElementGuid>79276d6f-6c8b-4ac9-89d7-bb5f218b440b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance Financial Class'])[1]/preceding::a[1]</value>
+      <webElementGuid>8fabff20-0cbd-4ae6-af5f-720f9a3f0558</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note Template'])[1]/preceding::a[2]</value>
+      <webElementGuid>7d5f9568-1abe-4d7d-addb-b812ce7e1143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Oluom Data Setup']/parent::*</value>
+      <webElementGuid>5b3a76aa-85ed-4c3c-89e3-30dababc5650</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/meds/servlet/com.meds.cust.servlet.OluomSrch')]</value>
+      <webElementGuid>0eebba93-401d-4dda-978d-9efbb1e42ec5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/nav/div[28]/a</value>
+      <webElementGuid>f54039cc-ff7c-4704-828c-4d3224236dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/meds/servlet/com.meds.cust.servlet.OluomSrch' and (text() = 'Oluom Data Setup' or . = 'Oluom Data Setup')]</value>
+      <webElementGuid>7581084d-43fd-42ca-be75-1277e6940828</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

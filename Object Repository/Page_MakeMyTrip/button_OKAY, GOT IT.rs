@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_OKAY, GOT IT</name>
+   <tag></tag>
+   <elementGuidId>0cb004b4-f8c3-436f-9aeb-e62fd03ae637</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/div/div[3]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button.buttonSecondry.buttonBig.fontSize12.relative</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>11a9b046-6d2e-4e2b-a9d9-0c3269206553</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button buttonSecondry buttonBig fontSize12 relative</value>
+      <webElementGuid>345a9c95-ccf8-4e59-906d-4df788e8aec8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OKAY, GOT IT!</value>
+      <webElementGuid>8e58d6a7-b8cd-4d38-bf63-5ccd68c1b56c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[2]/div[@class=&quot;flightBody&quot;]/div[@class=&quot;overlay&quot;]/div[@class=&quot;commonOverlay&quot;]/div[@class=&quot;fareLockInfoContainer&quot;]/div[@class=&quot;makeFlex hrtlCenter right&quot;]/button[@class=&quot;button buttonSecondry buttonBig fontSize12 relative&quot;]</value>
+      <webElementGuid>8d69243c-bffe-4d72-b598-e014b3c023ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/div/div[3]/button</value>
+      <webElementGuid>9934d76a-bb84-4506-ba9b-389a36d6b9e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Flight Details'])[16]/following::button[1]</value>
+      <webElementGuid>e8258dd0-13de-4930-aebe-29e31fa65393</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Prices'])[16]/following::button[1]</value>
+      <webElementGuid>ea03fafa-5f55-4de9-8d47-b02930c20ba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OKAY, GOT IT!']/parent::*</value>
+      <webElementGuid>75b4907b-024a-4b8f-8588-09060ed3025d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>123e1b98-5cf4-4a84-9382-cf295b98c9a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'OKAY, GOT IT!' or . = 'OKAY, GOT IT!')]</value>
+      <webElementGuid>8226516b-c56f-46d0-b549-1fdb55230b33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

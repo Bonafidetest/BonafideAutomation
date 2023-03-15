@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Click              here</name>
+   <tag></tag>
+   <elementGuidId>8d4a2c53-d8ac-4673-bddb-2ef5b3826d98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Click
+              here')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.redYestoyes.green.clickButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>21f8c6c9-60d2-4e28-9517-915a64a0cde2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:formOluomMain_AddNew();</value>
+      <webElementGuid>1bfeaf1f-19fd-4bef-8bd2-4e7d6e5e98b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>redYestoyes green clickButton</value>
+      <webElementGuid>f05a845e-5a2a-4563-b95a-1febe352388f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click
+              here</value>
+      <webElementGuid>b0634a53-57af-47ea-99d5-8a8e3957600e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bg-gray-lightest&quot;]/form[1]/table[@class=&quot;tableClps noBorder&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[2]/td[1]/a[@class=&quot;redYestoyes green clickButton&quot;]</value>
+      <webElementGuid>2922cdc3-3801-4d77-8979-c7c11a8736be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Data Setup/OLUOM/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>d3cd83b2-4567-4f69-8c33-8dc5c2092ea5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Click
+              here')]</value>
+      <webElementGuid>17073e86-f29a-49aa-81ca-35429d79fc71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BmsEdiId'])[1]/preceding::a[1]</value>
+      <webElementGuid>03ff0713-1742-41a9-a9f7-9a2f39095c1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:formOluomMain_AddNew();')]</value>
+      <webElementGuid>f2cfbc25-35d1-4c3c-8d93-2880eafa736e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>14497a01-1d2f-4f80-9feb-9005069ef1e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:formOluomMain_AddNew();' and (text() = 'Click
+              here' or . = 'Click
+              here')]</value>
+      <webElementGuid>8ecd516a-da05-4dd7-b0d1-51cb2b6059ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

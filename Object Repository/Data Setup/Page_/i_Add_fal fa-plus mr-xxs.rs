@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Add_fal fa-plus mr-xxs</name>
+   <tag></tag>
+   <elementGuidId>88e6eb51-4afe-4ebb-824c-587837690c8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frm']/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fal.fa-plus.mr-xxs</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0acbb694-f504-4582-afba-7ea4e058650a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-plus mr-xxs</value>
+      <webElementGuid>bae0f93f-0520-42cc-bfc6-9b2977c0871b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frm&quot;)/button[@class=&quot;button button-sm button-outline button-info mr-xs&quot;]/i[@class=&quot;fal fa-plus mr-xxs&quot;]</value>
+      <webElementGuid>dda30b4c-e164-430a-8222-1ff69129785a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Data Setup/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>2aaa77f6-4fe1-4f5f-baee-cd947c3db64e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frm']/button/i</value>
+      <webElementGuid>84ca7d11-0de3-49b1-9efe-2bc89ed705b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>a9938b33-5bc8-4062-a7c2-f1b2ae1da1f2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

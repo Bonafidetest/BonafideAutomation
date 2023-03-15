@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Explore Bonafide 2.1</name>
+   <tag></tag>
+   <elementGuidId>9ad496f9-3bab-4c62-84da-b3d41967596d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='newVersion']/td/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2b4ae55f-368a-4dad-9a2a-bd4b18efac53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:Bonafide.upgrade();</value>
+      <webElementGuid>3e94a51d-49de-4b8d-88ee-c4681edd9098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Explore Bonafide 2.1</value>
+      <webElementGuid>e9ca8512-981f-4e66-96a4-8f484a9cee47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;newVersion&quot;)/td[@class=&quot;alignBtm btmPad5&quot;]/a[1]</value>
+      <webElementGuid>e9e9505b-7b8e-464f-9ce6-e05ec81cf40f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Data Setup/OLUOM/Page_/Page_HSSTRAIN - Bonafide/frame_concat(id(, , content, , ))_content</value>
+      <webElementGuid>096120f6-92d9-4d74-a436-cb96f0c772da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='newVersion']/td/a</value>
+      <webElementGuid>05e11abd-e532-440a-9aa2-1e661cd8186b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Explore Bonafide 2.1')]</value>
+      <webElementGuid>b7211358-dd04-40fe-a15a-41f7bf40652b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The database is for training purposes only'])[1]/following::a[1]</value>
+      <webElementGuid>6f346558-326c-451b-a574-e0de29734417</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='snehal ashish'])[1]/following::a[1]</value>
+      <webElementGuid>6b2e0a77-2d4a-41f4-b4bb-878032266318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Common Functions'])[1]/preceding::a[1]</value>
+      <webElementGuid>939c4858-332c-4027-a3a5-af0831c3d166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Maintenance'])[1]/preceding::a[2]</value>
+      <webElementGuid>9aa121b5-4222-4696-81a2-32f224c6bddb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Explore Bonafide 2.1']/parent::*</value>
+      <webElementGuid>4a577bcd-5cdd-49fe-8879-b6002c3b4922</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:Bonafide.upgrade();')]</value>
+      <webElementGuid>4adadd0a-ef73-452f-be97-f61256e787af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>45016b72-9f3b-4cc7-9f1d-122ad423ec08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:Bonafide.upgrade();' and (text() = 'Explore Bonafide 2.1' or . = 'Explore Bonafide 2.1')]</value>
+      <webElementGuid>8401f178-fac9-49c6-9d93-8da1f7a01269</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
