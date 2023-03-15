@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
+/*************************** Click on Left Hand Side Customer Maitenance *******************/
 WebUI.switchToDefaultContent()
 WebUI.verifyElementClickable(findTestObject('Object Repository/dashboard/customerMaintenance'))
 WebUI.click(findTestObject('Object Repository/dashboard/customerMaintenance'))
 
-
+/*************************** Click on Add New Facility Tab *******************/
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 WebUI.verifyElementClickable(findTestObject('Object Repository/Customer/Search/addNewFacility'))
 WebUI.click(findTestObject('Object Repository/Customer/Search/addNewFacility'))
 
-/************Customer Information Data************************/
+/************Customer Information Details************************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Facility/customerInformation/save'))
 WebUI.setText(findTestObject('Object Repository/Facility/customerInformation/name'), name)
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Facility/customerInformation/customerType'), custType, FailureHandling.OPTIONAL)
@@ -67,7 +67,7 @@ if(inactive.equals("YES"))
 
 WebUI.setText(findTestObject('Object Repository/Facility/customerInformation/alert'), alert)
 
-/**********************************Contact Information****************************/
+/**********************************Contact Information Details****************************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Facility/contactInformation/contactInformation'))
 WebUI.click(findTestObject('Object Repository/Facility/contactInformation/contactInformation'))
 
@@ -83,7 +83,7 @@ WebUI.setText(findTestObject('Object Repository/Facility/contactInformation/emai
 WebUI.setText(findTestObject('Object Repository/Facility/contactInformation/memo'),memo)
 WebUI.setText(findTestObject('Object Repository/Facility/contactInformation/cashManager'), cashManager)
 
-/***************************************BillToSalesPerson**********************************/
+/***************************************Bill To Sales Person Details**********************************/
 WebUI.verifyElementPresent(findTestObject('Object Repository/Facility/billToSalePerson/billToSalesPerson'), 10)
 WebUI.click(findTestObject('Object Repository/Facility/billToSalePerson/billToSalesPerson'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/Facility/billToSalePerson/name'))

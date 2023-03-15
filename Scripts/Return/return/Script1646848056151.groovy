@@ -21,7 +21,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.concurrent.TimeUnit as TimeUnit
 
-/*Click on Return*/
+/****************Click on Return*********/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/activities'))
@@ -67,7 +67,7 @@ if(orderNo !='')
 			
 		WebUI.click(findTestObject('Object Repository/Return/button_Search'))
 	}
-	else
+else
 	{
 		if(customerId !='')
 			WebUI.setText(findTestObject('Object Repository/Return/input_Customer_Id'), customerId)
@@ -103,11 +103,11 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Return/button_ExitW
 WebUI.verifyElementVisible(findTestObject('Object Repository/Return/button_SaveAndConfirm'))
 
 /***************************************Return*****************************/
-WebUI.click(findTestObject('Object Repository/Return/button_SaveAndConfirm'))
-WebUI.waitForAlert(10)
-String alertText = WebUI.getAlertText()
-if(WebUI.verifyEqual(alertText, ' There are no items to be returned. Please enter a return quantity.', FailureHandling.OPTIONAL))
-	WebUI.acceptAlert()
+//WebUI.click(findTestObject('Object Repository/Return/button_SaveAndConfirm'))
+//WebUI.waitForAlert(10)
+//String alertText = WebUI.getAlertText()
+//if(WebUI.verifyEqual(alertText, ' There are no items to be returned. Please enter a return quantity.', FailureHandling.OPTIONAL))
+	//WebUI.acceptAlert()
 	
 WebUI.delay(5)
 

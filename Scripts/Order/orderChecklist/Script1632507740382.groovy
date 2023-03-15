@@ -22,10 +22,11 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+/*********************Order Search******************/
 WebUI.switchToDefaultContent()
+WebUI.click(findTestObject('Object Repository/dashboard/activities'))
 WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'))
 WebUI.delay(5)
-//GlobalVariable.orderId="518";
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderNo'))
 WebUI.setText(findTestObject('Object Repository/Order/Order Inquiry/orderNo'), GlobalVariable.orderId)
@@ -34,7 +35,8 @@ WebUI.delay(3)
 String no="(//a/u[contains(text(),'"+GlobalVariable.orderId+"')])"
 if(WebUI.verifyElementPresent(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : no]), 10, FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : no]))
-
+	
+/**************************Order Checklist***********************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderAction'))
 WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderAction'))
 if(WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderChecklist')))

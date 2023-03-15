@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/customerInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>f78098bd-30d4-481b-a54e-244ae1e71b0c</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -58,6 +59,7 @@
          </iterationEntity>
          <testDataId>Data Files/dataSetup</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>8035d795-af16-4742-bec2-1b19fb13848c</testDataLinkId>
          <type>DATA_COLUMN</type>

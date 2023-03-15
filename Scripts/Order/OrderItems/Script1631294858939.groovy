@@ -28,6 +28,8 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Order/New Order/OrderItems/orderedItems'), FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Object Repository/Order/New Order/OrderItems/orderedItems'), FailureHandling.OPTIONAL)
 WebUI.delay(5)
+
+/*************Searching Items By SKU*********************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/New Order/OrderItems/SKU'))
 WebUI.setText(findTestObject('Object Repository/Order/New Order/OrderItems/SKU'), SKU)
 WebUI.sendKeys(findTestObject('Object Repository/Order/New Order/OrderItems/SKU'), Keys.chord(Keys.ENTER))
@@ -50,15 +52,15 @@ WebUI.delay(3)
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
-try {
-	WebDriver driver = DriverFactory.getWebDriver()
-	'Getting the text from the alert and storing it in Variable'
-	String AlertText = driver.switchTo().alert().getText()
-}
-catch(Exception e)
-{
-	WebUI.delay(1)
-}
+//try {
+//	WebDriver driver = DriverFactory.getWebDriver()
+//	'Getting the text from the alert and storing it in Variable'
+//	String AlertText = driver.switchTo().alert().getText()
+//}
+//catch(Exception e)
+//{
+//	WebUI.delay(1)
+//}
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 

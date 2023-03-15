@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/customerInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>6a24dd65-d193-4bb8-b016-a3a9a9778407</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -47,7 +48,7 @@
    <testCaseLink>
       <guid>3c7fad09-92cb-4747-9a5f-a1b39cea3ba9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Data Setup/TableMaintenance/customerType</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -58,6 +59,7 @@
          </iterationEntity>
          <testDataId>Data Files/dataSetup</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>8ae0148d-72ca-4237-988f-58896e91fa56</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -98,7 +100,7 @@
    <testCaseLink>
       <guid>6fc12d95-97bb-4dcb-a742-0f10427f45ce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Data Setup/TableMaintenance/equipmentType</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -109,6 +111,7 @@
          </iterationEntity>
          <testDataId>Data Files/dataSetup</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>48f9d980-2d1e-41cf-b9c9-d589c7c0f69e</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -149,7 +152,7 @@
    <testCaseLink>
       <guid>a18ebf43-2a09-494e-af1d-193d2de14e53</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Data Setup/TableMaintenance/equipmentSubtype</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -160,6 +163,7 @@
          </iterationEntity>
          <testDataId>Data Files/dataSetup</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>bb449407-8ea2-4d86-92df-835860dedd31</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -211,6 +215,7 @@
          </iterationEntity>
          <testDataId>Data Files/dataSetup</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>ce1550a4-7825-49ba-8cbf-d6e15726cdbb</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -250,6 +255,7 @@
          </iterationEntity>
          <testDataId>Data Files/dataSetup</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>0341c785-bf33-4a49-ba7c-417fb1fc579c</testDataLinkId>
          <type>DATA_COLUMN</type>

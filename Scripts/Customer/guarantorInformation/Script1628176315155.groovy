@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/***************************************Click On Guarantor Information Tab******************************/
 WebUI.click(findTestObject('Object Repository/Customer/Creation/GuarantorInformation/guarantor'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/GuarantorInformation/Primary/guarantorSameasPatient'))	
 
+/******************************Primary Insurance Details*****************************************/
 if(Insurance1.equals("PRIMARY"))
 {
 	if(SameasPatient.equals("Y"))
@@ -70,7 +72,7 @@ if(Insurance1.equals("PRIMARY"))
 		
 }
 	
-	
+/******************************SECONDARY Insurance Details*****************************************/
 if(Insurance2.equals("SECONDARY"))
 {
 	WebUI.selectOptionByValue(findTestObject('Object Repository/Customer/Creation/GuarantorInformation/Secondary/guarantorInsuranceType'), Insurance2, false)
@@ -123,8 +125,9 @@ if(Insurance2.equals("SECONDARY"))
 				WebUI.check(findTestObject('Object Repository/Customer/Creation/GuarantorInformation/Secondary/guarantorExpDateChkbx'))
 				WebUI.setText(findTestObject('Object Repository/Customer/Creation/GuarantorInformation/Secondary/guarantorExpDate'), ExpiryDate2)
 			}
-}		
-		
+}	
+	
+/******************************TERTIARY Insurance Details*****************************************/
 if(Insurance3.equals("TERTIARY"))
 {
 	

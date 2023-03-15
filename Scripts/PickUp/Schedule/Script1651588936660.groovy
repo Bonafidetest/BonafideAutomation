@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*Click on Pick Up*/
+/*******************Click on Pick Up**************************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/activities'))
@@ -37,7 +37,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Pickup/Search/butto
 
 WebUI.click(findTestObject('Object Repository/Pickup/Search/button_New'))
 
-/*Customer Search*/
+/**************************Customer Search***************************/
 if(lastName!='')
 	WebUI.setText(findTestObject('Object Repository/Customer/Search/lastName'), lastName)
 if(firstName!='')

@@ -29,11 +29,13 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/billing')
 
 WebUI.click(findTestObject('Object Repository/dashboard/billing'))
 
-WebUI.delay(100)
+WebUI.delay(20)
 
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Billing/orderNo'), 120)
+
+/*************************************Search by all Combination***************************************/
 
 if(orderNumber!='')
 {

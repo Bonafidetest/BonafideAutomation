@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Order/New Order/Claim Information/claimInformation'))
 WebUI.delay(5)
+
+/*******************Diagnosis Code****************/
 WebUI.scrollToElement(findTestObject('Object Repository/Order/New Order/Claim Information/ICD10_1'), 5)
 
 WebUI.setText(findTestObject('Object Repository/Order/New Order/Claim Information/ICD10_1'), ICD10_1)
@@ -28,6 +30,7 @@ WebUI.switchToDefaultContent()
 String companyName = WebUI.getText(findTestObject('Object Repository/officeSelection/companyName'))
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
+/********************Physician Details********************/
 String NPI = WebUI.getText(findTestObject('Object Repository/Order/New Order/Claim Information/orderingPhysicanNPI'))
 if(NPI.equals(""))
 {
@@ -46,6 +49,8 @@ if(NPI.equals(""))
 	WebUI.verifyNotEqual(NPI, '')
 }
 WebUI.delay(5)
+
+/***************Type of Service/Place of Service/Facility Information************/
 WebUI.scrollToElement(findTestObject('Object Repository/Order/New Order/Claim Information/placeofService'), 5)
 if(companyName.equals("HSSTRAIN"))
 {

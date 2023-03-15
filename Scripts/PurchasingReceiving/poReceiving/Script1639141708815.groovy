@@ -25,7 +25,7 @@ import org.openqa.selenium.By
 import org.openqa.selenium.Alert
 import org.openqa.selenium.NoAlertPresentException
 
-/*Click on Purchase Order*/
+/**************Click on Purchase Order***************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/PurchasingReceiving'))
@@ -40,7 +40,7 @@ WebUI.delay(5)
 
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
-/*Purcharse Order Receiving*/
+/******************Purcharse Order Receiving****************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/quickSearch'))
 WebUI.setText(findTestObject('Object Repository/PurchasingReceiving/Receiving/quickSearch'), poNumber)
 
@@ -103,21 +103,21 @@ WebUI.delay(3)
 WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/receivedDateChkBox'))
 WebUI.check(findTestObject('Object Repository/PurchasingReceiving/Receiving/receivedDateChkBox'))
 WebUI.setText(findTestObject('Object Repository/PurchasingReceiving/Receiving/receivedQuantity'), qtY)
-WebUI.scrollToElement(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep'), 5)
-WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep'))
+WebUI.scrollToElement(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep2'), 5)
+WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep2'))
 				/**************Step2**********/
-WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/step2'))
-WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/step2'))
+WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep1'))
 				/*************Step3*********/
 WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/step3'))
-WebUI.selectOptionByIndex(findTestObject('Object Repository/PurchasingReceiving/Receiving/transferToManifest'), manifest, FailureHandling.OPTIONAL)
+//WebUI.selectOptionByIndex(findTestObject('Object Repository/PurchasingReceiving/Receiving/transferToManifest'), manifest, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/confirmReceiving'))
 				/***********Final***************/
 WebUI.delay(5)
 WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/receivingProcessComplete'))
 WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/finish'))
 
-/*Click on Purchase Order*/
+/***********Verify Received Purchase Order************/
 WebUI.refresh()
 
 WebUI.switchToDefaultContent()

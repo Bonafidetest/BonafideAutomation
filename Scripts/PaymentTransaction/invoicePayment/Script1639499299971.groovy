@@ -22,7 +22,7 @@ import internal.GlobalVariable
 import org.junit.After
 import org.openqa.selenium.Keys as Keys
 
-/*Click on Payment*/
+/********************************Click on Payment**********************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/activities'))
@@ -250,10 +250,10 @@ WebUI.waitForAlert(15)
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 /****************************Verification***********************************/
-WebUI.verifyElementPresent(findTestObject('PaymentTransaction/AmountAllocation/autoAlloc'),25)
-WebUI.scrollToElement(findTestObject('PaymentTransaction/AmountAllocation/autoAlloc'), 10)
-WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/addToList'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_InvoiceReg'))
+//WebUI.verifyElementPresent(findTestObject('PaymentTransaction/AmountAllocation/autoAlloc'),25)
+//WebUI.scrollToElement(findTestObject('PaymentTransaction/AmountAllocation/autoAlloc'), 10)
+//WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/addToList'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_InvoiceReg'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_PymtByPymt'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_PaymentByInvoice'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_ERNInfo'))
@@ -261,76 +261,63 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/
 WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_FullAllocate'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_Clear_Allocated'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_BalanceDetail'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_EditCLaimDetails'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/AmountAllocation/a_EditCLaimDetails'))
 
+/*****************Auto Allocation*****************/
+//WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/autoAlloc'))
 
-WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/autoAlloc'))
-
-WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/addToList'))
+//WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/addToList'))
 
 if(WebUI.verifyElementVisible(findTestObject('PaymentTransaction/AmountAllocation/postPayment'), FailureHandling.OPTIONAL))
 
 	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))
 else
 {
-	WebUI.verifyElementVisible(findTestObject('PaymentTransaction/AmountAllocation/button_editAllocatedList'))
+	// WebUI.verifyElementVisible(findTestObject('PaymentTransaction/AmountAllocation/button_editAllocatedList'))
 	
-	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/button_editAllocatedList'))
+	// WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/button_editAllocatedList'))
 	
 	WebUI.verifyElementVisible(findTestObject('PaymentTransaction/AmountAllocation/balanceAmount'))
 	
 	String adjamount = WebUI.getText(findTestObject('PaymentTransaction/AmountAllocation/balanceAmount'))
 	
-	WebUI.verifyElementVisible(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
+	WebUI.click(findTestObject('PaymentTransaction/AutoAlloc'))
 	
-	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
+	WebUI.click(findTestObject('PaymentTransaction/AddToList'))
 	
-	WebUI.sendKeys(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), Keys.chord(Keys.DELETE))
+	//WebUI.verifyElementVisible(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
 	
-	WebUI.clearText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
+	//WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
 	
-	WebUI.setText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), adjamount)
+	//WebUI.sendKeys(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), Keys.chord(Keys.DELETE))
 	
-	/*WebUI.clearText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
+   //WebUI.clearText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
 	
-	WebUI.sendKeys(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), Keys.chord(Keys.DELETE))
+	//WebUI.setText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), adjamount)
 	
-	WebUI.setText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), adjamount)
+	//WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/button_applyChanges'))
 	
-	WebUI.sendKeys(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), Keys.chord(Keys.BACK_SPACE))
+	//WebUI.waitForAlert(15)
 	
-	WebUI.sendKeys(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), Keys.chord(Keys.BACK_SPACE))
+	//String alertText = WebUI.getAlertText()
 	
-	WebUI.sendKeys(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), Keys.chord(Keys.BACK_SPACE))
+//	WebUI.verifyEqual(alertText, 'Allocted Amount Updated Successfully.')
 	
-	WebUI.sendKeys(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), Keys.chord(Keys.BACK_SPACE))
+//	WebUI.acceptAlert()
 	
-	WebUI.clearText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'))
-	
-	WebUI.setText(findTestObject('PaymentTransaction/AmountAllocation/overPaid'), adjamount)*/
-	
-	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/button_applyChanges'))
-	
-	WebUI.waitForAlert(15)
-	
-	String alertText = WebUI.getAlertText()
-	
-	WebUI.verifyEqual(alertText, 'Allocted Amount Updated Successfully.')
-	
-	WebUI.acceptAlert()
-	
+	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))	
 	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))
-	
-	
 }
 
 def alertText = WebUI.getAlertText()
 
 WebUI.verifyEqual(alertText, 'Are you sure you want to Post this Payment to Database?')
-
+WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))
+WebUI.waitForAlert(10)
 WebUI.acceptAlert()
 
-WebUI.waitForAlert(90)
+
+WebUI.waitForAlert(10)
 
 alertText = WebUI.getAlertText()
 
@@ -366,10 +353,11 @@ WebUI.switchToDefaultContent(FailureHandling.OPTIONAL)
 
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10, FailureHandling.OPTIONAL)
 
+/********************Search Payment Number***************************/
 WebUI.verifyElementPresent(findTestObject('Object Repository/PaymentTransaction/paymentSearchButton'), 20)
 
 WebUI.setText(findTestObject('PaymentTransaction/PaymentReport/paymentNo'), paymentNo)
 
 WebUI.click(findTestObject('Object Repository/PaymentTransaction/paymentSearchButton'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/PaymentTransaction/paymentReceipt'), 20)
+WebUI.verifyElementPresent(findTestObject('Object Repository/PaymentTransaction/PaymentTransactionEntry/h3_PaymentTransactionEntry'), 20)

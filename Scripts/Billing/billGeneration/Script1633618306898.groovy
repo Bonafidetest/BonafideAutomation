@@ -22,7 +22,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.concurrent.TimeUnit as TimeUnit
 
-/* Click on Billing */
+/*************************** Click on Billing *******************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/activities'))
@@ -39,83 +39,90 @@ WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Billing/orderNo'), 120)
 
-if (orderNumber == '') {
-    print('Billing Number Missing') //	orderno = orderno.split('#')
-    //	System.out.println(orderno)
-    //	orderno = orderno.trim()
-    //	System.out.println(orderno)
-    //	WebUI.verifyEqual(orderNumber, orderno, FailureHandling.OPTIONAL)
-    //String xpath = "(//a/b[contains(text(),'"+orderNumber+"')])"
-    //WebUI.delay(5)
-    //	WebUI.click(findTestObject('Object Repository/Billing/selectAllCheckBox'), FailureHandling.OPTIONAL)
-    //String xpath = "(//a/b[contains(text(),'"+orderNumber+"')])"
-    //String xpath = "(//a/b[contains(text(),'"+orderNumber+"')])"
-} else {
-	WebUI.delay(3)
-    WebUI.setText(findTestObject('Object Repository/Billing/orderNo'), orderNumber)
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/searchButton'))
+/*********************Order Search to generate invoice******************/
+if (orderNumber == '') 
+	{
+		print('Billing Number Missing') 
+	
+	} 
+	else 
+	{
+		WebUI.delay(3)
+	    WebUI.setText(findTestObject('Object Repository/Billing/orderNo'), orderNumber)
+	
+	    WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/searchButton'))
+	
+	    WebUI.click(findTestObject('Object Repository/Billing/searchButton'))
 
-    WebUI.click(findTestObject('Object Repository/Billing/searchButton'))
-
-    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Billing/noBillableItemFund'), 60, FailureHandling.OPTIONAL))
-	 {
-        System.out.print('Order number not found')
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Billing/noBillableItemFund'), 60, FailureHandling.OPTIONAL))
+	 
+			System.out.print('Order number not found')
 		
-    } else {
-        boolean status = WebUI.verifyElementChecked(findTestObject('Object Repository/Billing/printInvoiceNow'), 5, FailureHandling.OPTIONAL)
+		else 
+		{
+			/****************************Check if Print Invoice Now is Checked or not***************************/
+	        boolean status = WebUI.verifyElementChecked(findTestObject('Object Repository/Billing/printInvoiceNow'), 5, FailureHandling.OPTIONAL)
+	
+	        System.out.println(status)
 
-        System.out.println(status)
-
-        if (status == false) {
-            WebUI.check(findTestObject('Object Repository/Billing/printInvoiceNow'))
-        }
+			if (status == false) 
+			{
+				WebUI.check(findTestObject('Object Repository/Billing/printInvoiceNow'))
+			}
         
-        String xpath = '(//a/b)[1]'
-
-        String orderno = WebUI.getText(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xpath]))
-
-        System.out.println(orderno)
-
-        SimpleDateFormat formatter = new SimpleDateFormat('MMddyyyy')
-
-        Date date = new Date()
-
-        String currentdate = formatter.format(date)
-
-        System.out.println(currentdate)
-
-        WebUI.setText(findTestObject('Object Repository/Billing/invoiceDate'), currentdate)
-
-        WebUI.delay(5)
-
-        WebUI.click(findTestObject('Object Repository/Billing/selectAllCheckBox'))
-
-        WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/processButton'))
-
-        WebUI.delay(10)
-
-        WebUI.click(findTestObject('Object Repository/Billing/processButton'))
-
-        WebUI.delay(5)
-		
-        WebUI.acceptAlert()
-		
-		WebUI.acceptAlert(FailureHandling.OPTIONAL)
-
-        WebUI.delay(15)
-
-        WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/invoice_button'))
-
-        WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/invoice_link'))
-
-        WebUI.click(findTestObject('Object Repository/Billing/invoice_link'))
-		
-		WebUI.delay(5)
-		
-		WebUI.switchToWindowIndex(1)
-		
-		WebUI.delay(5)
+	        String xpath = '(//a/b)[1]'
+	
+	        String orderno = WebUI.getText(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xpath]))
+	
+	        System.out.println(orderno)
+			
+			/*************************Put Invoice Date as Current Date********************/
+	
+	        SimpleDateFormat formatter = new SimpleDateFormat('MMddyyyy')
+	
+	        Date date = new Date()
+	
+	        String currentdate = formatter.format(date)
+	
+	        System.out.println(currentdate)
+	
+	        WebUI.setText(findTestObject('Object Repository/Billing/invoiceDate'), currentdate)
+	
+	        WebUI.delay(5)
+	
+	        WebUI.click(findTestObject('Object Repository/Billing/selectAllCheckBox'))
+	
+	        WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/processButton'))
+	
+	        WebUI.delay(10)
+	
+	        WebUI.click(findTestObject('Object Repository/Billing/processButton'))
+			WebUI.click(findTestObject('Object Repository/Billing/processButton'))
+	
+	        //WebUI.delay(5)
+			
+	        WebUI.acceptAlert()
+			
+			WebUI.acceptAlert(FailureHandling.OPTIONAL)
+	
+	        WebUI.delay(25)
+			
+			/**************************Verify Invoice button and Link after generating Invoice********************/
+	
+	        WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/invoice_button'))
+	
+	        WebUI.verifyElementVisible(findTestObject('Object Repository/Billing/invoice_link'))
+			
+			/************************************Download Invoice******************************************/
+	
+	        WebUI.click(findTestObject('Object Repository/Billing/invoice_link'))
+			
+			WebUI.delay(5)
+			
+			WebUI.switchToWindowIndex(1)
+			
+			WebUI.delay(5)
 		
 		
     }

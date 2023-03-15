@@ -5,15 +5,33 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e7f9f996-23ac-4684-9461-e5065d091c56</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>534abf88-2c23-4bd6-b701-dfc5f691a1da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7073a79-63c6-40e3-9649-3362b9abb996</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'CHCSTRAIN'</defaultValue>
+      <defaultValue>'HSSTRAIN'</defaultValue>
       <description></description>
       <id>a913aea1-8ff7-4421-beed-2bb0c1d1ab4c</id>
       <masked>false</masked>
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>'9992'</defaultValue>
+      <defaultValue>'9996'</defaultValue>
       <description></description>
       <id>534abf88-2c23-4bd6-b701-dfc5f691a1da</id>
       <masked>false</masked>

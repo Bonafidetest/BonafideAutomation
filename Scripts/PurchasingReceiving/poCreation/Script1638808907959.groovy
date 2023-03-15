@@ -21,7 +21,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By
 
-/*Click on Purchase Order*/
+/***************Click on Purchase Order**************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/PurchasingReceiving'))
@@ -38,7 +38,7 @@ String companyName = WebUI.getText(findTestObject('Object Repository/officeSelec
 
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
-/*Purcharse Creation*/
+/*******************Purcharse Creation***********/
 WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Search/createNewPO'))
 
 WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Search/createNewPO'))
@@ -128,7 +128,7 @@ if(companyName != "MEDSOUTHTRAIN")
 	
 }
 WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Creation/nextButton'))
-/****************************************Add Items**********************************************************/
+/***********************************Add Items**************************************/
                     /**************Request Files**************************/
 WebUI.verifyElementPresent(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Creation/requestFile'), 20)
 WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Creation/requestFile'))

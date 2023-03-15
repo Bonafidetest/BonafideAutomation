@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'411'</initValue>
+      <initValue>'44908'</initValue>
       <name>billing_Orderno</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -48,5 +48,15 @@
       <description></description>
       <initValue>''</initValue>
       <name>pickupNo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>partNo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>InterOffice Transfer Shipped Status</description>
+      <initValue>'REQUEST SENT AND ITEMS ALREADY SHIPPED BUT NOT RECEIVED YET'</initValue>
+      <name>shipedStat</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

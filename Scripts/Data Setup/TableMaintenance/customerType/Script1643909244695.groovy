@@ -90,8 +90,10 @@ String utypeName = typeName + currentdate
 String udescription = description + currentdate
 WebUI.setText(findTestObject('Object Repository/Data Setup/TableMaintenance/CustomerType/input_TypeName'), utypeName)
 WebUI.setText(findTestObject('Object Repository/Data Setup/TableMaintenance/CustomerType/input_Description'), udescription)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/TableMaintenance/CustomerType/select_Form_Group'), uformGroup, false)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/TableMaintenance/CustomerType/select_Show_Write_Off'), ushowWriteOff, false)
+
+/** WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/TableMaintenance/CustomerType/select_Form_Group'), uformGroup, false) **/
+// WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/TableMaintenance/CustomerType/select_Show_Write_Off'), ushowWriteOff, false)
+
 WebUI.click(findTestObject('Object Repository/Data Setup/TableMaintenance/CustomerType/button_Submit'))
 WebUI.delay(10)
 WebUI.switchToWindowIndex(0)

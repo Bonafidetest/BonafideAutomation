@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/New Order/newOrder'), FailureHandling.OPTIONAL)
 WebUI.delay(5)
 
@@ -25,6 +26,7 @@ WebUI.switchToDefaultContent()
 String companyName = WebUI.getText(findTestObject('Object Repository/officeSelection/companyName'))
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
+/**************** Billing Office Selections for VIEMEDTRAIN & CHCSTRAIN************/
 if(companyName.equals("CHCSTRAIN") || companyName.equals("VIEMEDTRAIN"))
 	WebUI.selectOptionByIndex(findTestObject('Object Repository/Order/New Order/CustomerInformation/order_billingOffice'), billing_Office)
 	
@@ -32,10 +34,11 @@ WebUI.setText(findTestObject('Object Repository/Order/New Order/CustomerInformat
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Order/New Order/CustomerInformation/order_salesRep'), salesRep, FailureHandling.OPTIONAL)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Order/New Order/CustomerInformation/FileClaim'), fileClaim, false)
 
+/**************** Order Clasification Selections for CHCSTRAIN************/
 if(companyName.equals("CHCSTRAIN"))
 	WebUI.selectOptionByLabel(findTestObject('Object Repository/Order/New Order/CustomerInformation/select_OrderClasification'), orderClassification, false)
 
-	WebUI.delay(5)
+WebUI.delay(5)
 WebUI.verifyElementClickable(findTestObject('Object Repository/Order/New Order/CustomerInformation/order_sourceofBusiness'))
 WebUI.click(findTestObject('Object Repository/Order/New Order/CustomerInformation/order_sourceofBusiness'))
 String source_Business = WebUI.getText(findTestObject('Object Repository/Order/New Order/CustomerInformation/order_sourceofBusiness'))

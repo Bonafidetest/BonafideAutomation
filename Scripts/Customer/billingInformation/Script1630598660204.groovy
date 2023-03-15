@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/*********************Click on Billing Information Tab *****************************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/BillingInformation/billingInformation'))
 WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/billingInformation'))
 
@@ -79,45 +80,47 @@ WebUI.switchToDefaultContent()
 String companyName = WebUI.getText(findTestObject('Object Repository/officeSelection/companyName'))
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
-if(companyName.equals("MEDSOUTHTRAIN"))
-	println("Payment will be through AXIA Token")
-else
-{
-	WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardInformationSetup'))
-	WebUI.delay(5)
-	WebUI.switchToWindowIndex(1)
-	WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/addNewCard'))
-	WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/addNewCard'))
-	WebUI.delay(2)
-	WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardType'))
-	WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardType'), cardType, false)
-	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardAccountNo'), cardNo)
-	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardFirstName'), cardFirstName)
-	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardMiddleName'), cardMiddleName)
-	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardLastName'), cardLastName)
-	WebUI.selectOptionByIndex(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardYear'), cardExpYear)
-	WebUI.selectOptionByIndex(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardMonth'), cardExpMonth)
-	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardCVC'), cardCVC)
-	WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardDefault'), cardDefault, false)
-	WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardSave'))
+/******************************Credit Card Details******************/
+
+//if(companyName.equals("MEDSOUTHTRAIN"))
+	//println("Payment will be through AXIA Token")
+//else
+//{
+	//WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardInformationSetup'))
+//	WebUI.delay(5)
+	//WebUI.switchToWindowIndex(1)
+//	WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/addNewCard'))
+//	WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/addNewCard'))
+//	WebUI.delay(2)
+//	WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardType'))
+//	WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardType'), cardType, false)
+//	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardAccountNo'), cardNo)
+//	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardFirstName'), cardFirstName)
+//	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardMiddleName'), cardMiddleName)
+//	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardLastName'), cardLastName)
+//	WebUI.selectOptionByIndex(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardYear'), cardExpYear)
+//	WebUI.selectOptionByIndex(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardMonth'), cardExpMonth)
+//	WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardCVC'), cardCVC)
+//	WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardDefault'), cardDefault, false)
+//	WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardSave'))
 	
-	WebUI.delay(2)
-	WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardAutoBill'), cardAutoBill, false)
-	if(emailReceiptChkBox.equals("Y"))
-	{
-		WebUI.check(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardEmailReceipt'))
-		WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardEmail'), cardEmail)
-	}
-	if(cardTextMessage.equals("Y"))
-	{
-		WebUI.check(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardSendTextMessage'))
-		WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardCellPhone'), cardPhone)
-		WebUI.selectOptionByIndex(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardCellPhoneType'), cardPhoneType)
+//	WebUI.delay(2)
+//	WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardAutoBill'), cardAutoBill, false)
+//	if(emailReceiptChkBox.equals("Y"))
+//	{
+//		WebUI.check(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardEmailReceipt'))
+//		WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardEmail'), cardEmail)
+//	}
+//	if(cardTextMessage.equals("Y"))
+//	{
+//		WebUI.check(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardSendTextMessage'))
+//		WebUI.setText(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardCellPhone'), cardPhone)
+//		WebUI.selectOptionByIndex(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditcardCellPhoneType'), cardPhoneType)
 		
-	}
+//	}
 	
-	WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardSavePlan'))
-}
+//	WebUI.click(findTestObject('Object Repository/Customer/Creation/BillingInformation/CreditCardInformation/creditCardSavePlan'))
+//}
 	
 
 WebUI.delay(2)

@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Object Repository/Data Setup/Type of Service/addCo
 WebUI.setText(findTestObject('Object Repository/Data Setup/Type of Service/addCodeDescription'), description)
 WebUI.click(findTestObject('Object Repository/Data Setup/Type of Service/submit'))
 WebUI.waitForAlert(10)
-WebUI.acceptAlert()
+// WebUI.acceptAlert()
 
 /*********************Search and Update Type of Services****************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/Type of Service/searchCode'))

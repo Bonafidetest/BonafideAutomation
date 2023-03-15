@@ -5,6 +5,24 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e4809162-6ccd-4ea2-a7bc-3db94eb4b92e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11b7442f-069e-4ef8-990c-dfa713b0f9e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10151f75-e236-4e2e-8285-59e9df4af942</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b1f9de9-4a1f-4aeb-9b05-f2c046bcecff</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'TEST GROUP'</defaultValue>
       <description></description>
@@ -20,7 +38,7 @@
       <name>insurance1</name>
    </variable>
    <variable>
-      <defaultValue>'CENTERCARE HEALTH PLAN'</defaultValue>
+      <defaultValue>'C1 CWA RN'</defaultValue>
       <description></description>
       <id>1b1f9de9-4a1f-4aeb-9b05-f2c046bcecff</id>
       <masked>false</masked>

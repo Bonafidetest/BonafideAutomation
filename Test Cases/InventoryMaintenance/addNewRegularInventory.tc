@@ -534,7 +534,7 @@
       <name>description</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'OT'</defaultValue>
       <description></description>
       <id>3aff2d46-b2b3-41ae-aa81-f2d1c9cb636d</id>
       <masked>false</masked>

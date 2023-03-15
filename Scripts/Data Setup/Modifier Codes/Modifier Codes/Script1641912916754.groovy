@@ -48,7 +48,7 @@ String currentdate = formatter.format(date)
 WebUI.setText(findTestObject('Object Repository/Data Setup/Modifier Codes/addTermDate'), currentdate)
 WebUI.click(findTestObject('Object Repository/Data Setup/Modifier Codes/submit'))
 WebUI.waitForAlert(10)
-WebUI.acceptAlert()
+// WebUI.acceptAlert()
 
 /*********************Search and Update Modifiers Code****************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/Modifier Codes/searchCode'))

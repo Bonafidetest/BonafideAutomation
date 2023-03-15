@@ -26,13 +26,16 @@ WebUI.delay(2)
 WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
 WebUI.switchToWindowIndex(0, FailureHandling.OPTIONAL)
 WebUI.switchToDefaultContent(FailureHandling.OPTIONAL)
-WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/activities'))
 
+/**************Navigate to Order Inquiry Page******************/
+WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/activities'))
 WebUI.click(findTestObject('Object Repository/dashboard/activities'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'))
 WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'))
 WebUI.delay(5)
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
+
+/**************************Order Search*********************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderNo'))
 WebUI.setText(findTestObject('Object Repository/Order/Order Inquiry/orderNo'), GlobalVariable.orderId)
 WebUI.delay(2)
@@ -44,6 +47,8 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/DynamicXpath/Reu
 	
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderAction'))
 WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderAction'))
+
+/*********************Edit Order*****************************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/editOrder'))
 WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/editOrder'))
 
@@ -72,7 +77,7 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Order/New Order/D
 WebUI.click(findTestObject('Object Repository/Order/New Order/Delivery/goToDelivery'), FailureHandling.OPTIONAL)
 
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5, FailureHandling.OPTIONAL)
-
+/***************************Assign SKU********************/
 if(WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/tdSKU'), FailureHandling.OPTIONAL))
 {
 	print("SKU already Assign")
@@ -92,23 +97,26 @@ else
 	WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
 	WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/tdSKU'))
 }
-WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/saveandConfirm'))	
-WebUI.delay(5)
-WebUI.closeWindowTitle("Delivery Ticket", FailureHandling.OPTIONAL)
-WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
-WebUI.closeWindowIndex(2, FailureHandling.OPTIONAL)
-WebUI.switchToWindowIndex(0)
-WebUI.switchToDefaultContent()
-WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'))
-WebUI.delay(5)
 
-WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
-WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderNo'))
-WebUI.setText(findTestObject('Object Repository/Order/Order Inquiry/orderNo'), GlobalVariable.orderId)
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/searchbutton'))
+//WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/saveandConfirm'))	
+//WebUI.delay(5)
+//WebUI.closeWindowTitle("Delivery Ticket", FailureHandling.OPTIONAL)
+//WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
+//WebUI.closeWindowIndex(2, FailureHandling.OPTIONAL)
+//WebUI.switchToWindowIndex(0)
+//WebUI.switchToDefaultContent()
+//WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/orderInquiry'))
+//WebUI.delay(5)
 
-String xpath = "(//td/a/u[text()='"+GlobalVariable.orderId+"']/following::td[contains(text(),'Shipped')])[1]"
-WebUI.verifyElementVisible(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xpath]))
+//WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
+
+/*************Verify Order Shipped or Not*********************/
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Order/Order Inquiry/orderNo'))
+//WebUI.setText(findTestObject('Object Repository/Order/Order Inquiry/orderNo'), GlobalVariable.orderId)
+//WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/searchbutton'))
+
+//String xpath = "(//td/a/u[text()='"+GlobalVariable.orderId+"']/following::td[contains(text(),'Shipped')])[1]"
+//WebUI.verifyElementVisible(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xpath]))
 
 	

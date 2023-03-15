@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*Click on New Order*/
+/**********************Click on New Order*****************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/activities'))
@@ -28,7 +28,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/newOrder'
 
 WebUI.click(findTestObject('Object Repository/dashboard/newOrder'))
 
-/*customer search*/
+/******************customer search********************/
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Search/customerID'))
@@ -46,6 +46,9 @@ if(custLastName!='' && custId=='')
 		WebUI.verifyElementClickable(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : clname]))
 		
 		WebUI.click(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : clname]))
+		
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/Order/New Order/OPSbutton'))
 	}
 if(custId!='' && custLastName=='')
 	{
@@ -60,7 +63,8 @@ if(custId!='' && custLastName=='')
 		WebUI.verifyElementClickable(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : cid]))
 		
 		WebUI.click(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : cid]))
-		
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/Order/New Order/OPSbutton'))
 	}
 if(custId!='' && custLastName!='')
 	{
@@ -77,6 +81,8 @@ if(custId!='' && custLastName!='')
 		WebUI.verifyElementClickable(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : cid]))
 		
 		WebUI.click(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : cid]))
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/Order/New Order/OPSbutton'))
 	}
 if(custId=='' && custLastName=='')
 	{

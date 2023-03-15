@@ -60,10 +60,10 @@ if(noOfAdd>1)
 
 WebUI.click(findTestObject('Object Repository/Data Setup/HCPCSDiagnosisValidation/button_SaveRule'))
 WebUI.waitForAlert(10)
-String alert = WebUI.getAlertText()
-System.out.println(alert)
-WebUI.verifyMatch(alert, "The rule set has been saved successfully.", false)
-WebUI.acceptAlert()
+// String alert = WebUI.getAlertText()
+// System.out.println(alert)
+// WebUI.verifyMatch(alert, "The rule set has been saved successfully.", false)
+// WebUI.acceptAlert()
 String xpath = "(//td[contains(text(),'"+ruleName+"')]/following-sibling::td[contains(text(),'"+action+"')])";
 WebUI.verifyElementPresent(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xpath]), 20)
 

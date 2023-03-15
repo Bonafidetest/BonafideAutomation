@@ -5,6 +5,24 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>40d9cfda-9a04-470c-91a2-60e489a781cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>611026e9-f27b-412f-8fa3-0fd1b6f53fbe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12940ced-b34a-4921-ab38-b7e3e0652736</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4b66449-7e87-44a5-9787-be813d5eb990</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Test Check list'</defaultValue>
       <description></description>

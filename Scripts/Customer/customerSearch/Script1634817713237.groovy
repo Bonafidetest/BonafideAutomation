@@ -19,14 +19,14 @@ import groovy.ui.SystemOutputInterceptor
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*Customer Maintenance*/
+/**********************Click on Customer Maintenance*********************/
 WebUI.switchToDefaultContent()
 WebUI.verifyElementClickable(findTestObject('Object Repository/dashboard/customerMaintenance'))
 WebUI.click(findTestObject('Object Repository/dashboard/customerMaintenance'))
 
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 WebUI.verifyElementClickable(findTestObject('Object Repository/Customer/Search/addNewPatient'))
-/*Customer Search*/
+/*********************************Customer Search by all combination***********************/
 if(lastName!='')
 {
 	WebUI.setText(findTestObject('Object Repository/Customer/Search/lastName'), lastName)

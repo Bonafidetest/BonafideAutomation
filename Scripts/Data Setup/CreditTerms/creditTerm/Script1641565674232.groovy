@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Object Repository/Data Setup/CreditTerms/addCredit
 WebUI.setText(findTestObject('Object Repository/Data Setup/CreditTerms/addCreditTermDays'), days)
 WebUI.click(findTestObject('Object Repository/Data Setup/CreditTerms/submitButton'))
 WebUI.waitForAlert(10)
-WebUI.acceptAlert()
+// WebUI.acceptAlert()
 
 /*********************Search and Update Credit Terms****************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/CreditTerms/searchCreditTerm'))

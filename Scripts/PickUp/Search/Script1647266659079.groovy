@@ -19,7 +19,7 @@ import groovy.ui.SystemOutputInterceptor
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*Click on Pick Up*/
+/*************************Click on Pick Up********************/
 WebUI.switchToDefaultContent(FailureHandling.OPTIONAL)
 if(WebUI.verifyElementNotVisible(findTestObject('Object Repository/Pickup/a_PickupSchedule'), FailureHandling.OPTIONAL))
 {

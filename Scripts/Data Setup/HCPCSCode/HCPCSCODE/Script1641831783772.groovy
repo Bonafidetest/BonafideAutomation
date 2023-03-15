@@ -48,7 +48,7 @@ String currentdate = formatter.format(date)
 WebUI.setText(findTestObject('Object Repository/Data Setup/HCPCSCode/addTermDate'), currentdate)
 WebUI.click(findTestObject('Object Repository/Data Setup/HCPCSCode/submit'))
 WebUI.waitForAlert(10)
-WebUI.acceptAlert()
+// WebUI.acceptAlert()
 
 /*********************Search and Update HCPCS Code****************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/HCPCSCode/searchCode'))

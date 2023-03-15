@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/********************Save Customer Details************************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/Save/save'))
 WebUI.click(findTestObject('Object Repository/Customer/Creation/Save/save'))
 
@@ -26,9 +27,10 @@ WebUI.click(findTestObject('Object Repository/Customer/Creation/Save/saveAnyway'
 WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Creation/Save/changeOffice'), FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Object Repository/Customer/Creation/Save/changeOffice'), FailureHandling.OPTIONAL)
 
-WebUI.switchToDefaultContent()
-WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
+/*************************Get Customer Id from Customer Details Page************************/
+//WebUI.switchToDefaultContent()
+//WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 5)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Details/customerId'))
-customerId = WebUI.getText(findTestObject('Object Repository/Customer/Details/customerId'))
-println(customerId)
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Customer/Details/customerId'))
+//customerId = WebUI.getText(findTestObject('Object Repository/Customer/Details/customerId'))
+//println(customerId)

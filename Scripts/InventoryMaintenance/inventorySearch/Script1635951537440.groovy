@@ -19,7 +19,7 @@ import groovy.ui.SystemOutputInterceptor
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*Click on Inventory*/
+/********************Click on Inventory*****************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/inventoryMaintenance'))
@@ -36,6 +36,7 @@ WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/InventoryMaintenance/InventorySearch/office'), 30)
 
+/******************Search By all Combinations***********/
 if(office != '')
 	WebUI.selectOptionByIndex(findTestObject('Object Repository/InventoryMaintenance/InventorySearch/office'), office)
 if(type !='')

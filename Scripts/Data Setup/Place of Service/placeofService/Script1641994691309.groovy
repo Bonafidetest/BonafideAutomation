@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Object Repository/Data Setup/Place of Service/addC
 WebUI.setText(findTestObject('Object Repository/Data Setup/Place of Service/addCodeDescription'), description)
 WebUI.click(findTestObject('Object Repository/Data Setup/Place of Service/submit'))
 WebUI.waitForAlert(10)
-WebUI.acceptAlert()
+// WebUI.acceptAlert()
 
 /*********************Search and Update Place of Service****************/
 WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/Place of Service/searchCode'))

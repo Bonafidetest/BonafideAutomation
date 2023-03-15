@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*Click on Purchase Order*/
+/***************Click on Purchase Order**************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/PurchasingReceiving'))
@@ -34,7 +34,7 @@ WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
 //if(WebUI.verifyElementNotVisible(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Search/searchCriteria'), FailureHandling.OPTIONAL))
 	
-/**************************Search****************/
+/**************************Search by all Combination****************/
 WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Search/openSearchFields'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/PurchasingReceiving/Purchase Order/Search/poOffice'), 30)

@@ -21,11 +21,12 @@ import org.openqa.selenium.Keys
 import org.seleniumhq.jetty9.server.HomeBaseWarning
 import org.seleniumhq.jetty9.server.HomeBaseWarning as Keys
 
+/*************************** Click on Left Hand Side Customer Maitenance *******************/
 WebUI.switchToDefaultContent()
 WebUI.verifyElementClickable(findTestObject('Object Repository/dashboard/customerMaintenance'))
 WebUI.click(findTestObject('Object Repository/dashboard/customerMaintenance'))
 
-
+/*************************** Click on Add New Patient Tab *******************/
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 WebUI.verifyElementClickable(findTestObject('Object Repository/Customer/Search/addNewPatient'))
 WebUI.click(findTestObject('Object Repository/Customer/Search/addNewPatient'))
@@ -37,7 +38,7 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Customer/Creation
 /******************************Personal Info***********************************/
 WebUI.setText(findTestObject('Object Repository/Customer/Creation/CustomerInformation/ssn'), SSN)
 WebUI.setText(findTestObject('Object Repository/Customer/Creation/CustomerInformation/altID'), AltID)
-WebUI.setText(findTestObject('Object Repository/Customer/Creation/CustomerInformation/lastName'), LastName)
+//WebUI.setText(findTestObject('Object Repository/Customer/Creation/CustomerInformation/lastName'), LastName)
 WebUI.setText(findTestObject('Object Repository/Customer/Creation/CustomerInformation/firstName'), FirstName)
 WebUI.setText(findTestObject('Object Repository/Customer/Creation/CustomerInformation/midName'), MidName)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer/Creation/CustomerInformation/suffix'), Suffix, false)
@@ -100,6 +101,8 @@ if(NoEmail.equals("YES"))
 	WebUI.check(findTestObject('Object Repository/Customer/Creation/CustomerInformation/noEmail'), FailureHandling.OPTIONAL)
 if(Inactive.equals("YES"))
 	WebUI.check(findTestObject('Object Repository/Customer/Creation/CustomerInformation/inactive'), FailureHandling.OPTIONAL)
+	
+	/******************************************Advanced********************************************/
 WebUI.setText(findTestObject('Object Repository/Customer/Creation/CustomerInformation/directions'), Directions)
 
 	

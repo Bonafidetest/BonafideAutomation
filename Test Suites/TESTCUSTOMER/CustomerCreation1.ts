@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/customerInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>89d04052-5cb5-4cf0-8f12-81f2d804c5c3</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -58,6 +59,7 @@
          </iterationEntity>
          <testDataId>Data Files/customerInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>df60a11a-6077-4f93-a87f-d0c6fa9830f1</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -343,6 +345,7 @@
          </iterationEntity>
          <testDataId>Data Files/guarantorInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>96ca1e8f-da39-43dd-b25d-229887f46389</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -970,6 +973,7 @@
          </iterationEntity>
          <testDataId>Data Files/billingInfo</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>a28e89ab-e19f-4ed1-bd40-56e5ac32bd99</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -1252,5 +1256,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Customer/customerSave</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

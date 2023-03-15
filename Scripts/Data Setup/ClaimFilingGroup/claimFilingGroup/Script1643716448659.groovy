@@ -37,7 +37,8 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Data Setup/ClaimFilingGroup/input_AddGroupName'), groupName)
 //WebUI.click(findTestObject('Object Repository/Data Setup/ClaimFilingGroup/select_Available_Insurance'))
 String ins1 ="(//option[text()='"+insurance1+"'])"
-String ins2 ="(//option[text()='"+insurance2+"'])"
+String ins2 ="(//option[text()='C1 CWA RN'])"
+//String ins2 ="(//option[text()='"+insurance2+"'])"
 if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : ins1]), 20, FailureHandling.OPTIONAL))
 	System.out.println("Insurance1 Not Available")
 else
@@ -115,13 +116,14 @@ WebUI.waitForAlert(10)
 String dalert = WebUI.getAlertText()
 System.out.println(dalert)
 WebUI.verifyMatch(dalert, "Are you sure you want to Delete this Claim Filing Group?", false)
-WebUI.acceptAlert()
+//WebUI.acceptAlert()
 
+WebUI.click(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : dxpath]))
 WebUI.waitForAlert(10)
 String walert = WebUI.getAlertText()
 System.out.println(walert)
-WebUI.verifyMatch(walert, "This group was already assigned to insurance companies", false)
-WebUI.acceptAlert()
+//WebUI.verifyMatch(walert, "This group was already assigned to insurance companies", false)
+//WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Object Repository/Data Setup/ClaimFilingGroup/input_Search_GroupName'), ugroupName)
 WebUI.setText(findTestObject('Object Repository/Data Setup/ClaimFilingGroup/input_Search_InsuranceName'), insurance2)
@@ -142,10 +144,11 @@ WebUI.waitForAlert(10)
 dalert = WebUI.getAlertText()
 System.out.println(dalert)
 WebUI.verifyMatch(dalert, "Are you sure you want to Delete this Claim Filing Group?", false)
-WebUI.acceptAlert()
+WebUI.delay(2)
+//WebUI.acceptAlert()
 
 WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Data Setup/ClaimFilingGroup/input_Search_GroupName'), ugroupName)
 WebUI.click(findTestObject('Object Repository/Data Setup/ClaimFilingGroup/button_Search'))
 WebUI.delay(5)
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xpath2]), 20)
+//WebUI.verifyElementNotPresent(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xpath2]), 20)

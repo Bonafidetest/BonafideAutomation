@@ -5,6 +5,78 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>374719a9-24b0-43c1-8f72-8256a178f263</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3989ef0a-6a68-4a44-986f-ac6344fd8478</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2554f1fa-b9d1-4f77-b1cc-15bf8abab431</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81d3ab8b-58aa-42c6-bde7-9acfecc2a8ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f37c1bd6-0c62-4024-b3e0-e4761d77c4fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d416caa7-c15c-4943-8fd3-27323b36ff97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79f507bb-20e6-4ad9-9e97-97f9f722c64f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e88278dc-4ad4-46f3-85d0-854b879c4823</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2cbe4a83-62f4-4610-895b-dac56c2f3938</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>320c6fcb-9c9e-4e75-9d91-2d930064852e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d82165c-a64d-4a45-b2d4-9bc1d525ecc5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5210d1c-7db4-4817-a252-faa2e60d4a0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35f2fcf2-e919-467d-9ace-94d3d5d317af</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'NO'</defaultValue>
       <description></description>
@@ -13,14 +85,14 @@
       <name>title</name>
    </variable>
    <variable>
-      <defaultValue>'YES'</defaultValue>
+      <defaultValue>'NO'</defaultValue>
       <description></description>
       <id>2554f1fa-b9d1-4f77-b1cc-15bf8abab431</id>
-      <masked>false</masked>
+      <masked>true</masked>
       <name>HCPCS_CHK</name>
    </variable>
    <variable>
-      <defaultValue>'1199 SEIU'</defaultValue>
+      <defaultValue>'3'</defaultValue>
       <description></description>
       <id>81d3ab8b-58aa-42c6-bde7-9acfecc2a8ab</id>
       <masked>false</masked>

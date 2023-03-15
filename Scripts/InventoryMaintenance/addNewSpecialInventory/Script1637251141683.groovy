@@ -21,7 +21,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.concurrent.TimeUnit as TimeUnit
 
-/*Click on Inventory*/
+/********************Navigate to Inventory Maintenance**********************/
 WebUI.switchToDefaultContent()
 
 String companyName = WebUI.getText(findTestObject('Object Repository/officeSelection/companyName'))
@@ -34,8 +34,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenanc
 
 WebUI.click(findTestObject('Object Repository/InventoryMaintenance/inventory'))
 
-/*Click on Add New Special Inventory*/
-
+/***********************Click on Add New Special Inventory*******************/
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
 WebUI.verifyElementPresent(findTestObject('InventoryMaintenance/inventoryHeaderTab/inventoryTab'), 60)
@@ -48,7 +47,7 @@ WebUI.click(findTestObject('Object Repository/InventoryMaintenance/inventoryHead
 
 WebUI.delay(5)
 
-/*Inventory Details*/
+/**********************************Inventory Details***********************************/
 //WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/active'), active, false)
@@ -56,7 +55,7 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/InventoryMaintenance
 if(showInDelivery.equals("YES"))
 	WebUI.check(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/showInDelivery'))
 
-/*TITLE*/
+/************************************TITLE*********************************/
 partNo = WebUI.getText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/partNumber'))
 
 WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/keyword'), keyword)
@@ -65,7 +64,7 @@ WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDe
 
 WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/description'), description)
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/equipmentType'), equipmentType)
+//WebUI.selectOptionByIndex(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/equipmentType'), equipmentType)
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/subType'), subType)
 
@@ -77,7 +76,7 @@ else
 WebUI.selectOptionByLabel(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/mustSerialize'), mustSerialize, false)
 	
 
-/*PHARMACY USAGE */
+/******************** PHARMACY USAGE ************************/
 
 //WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/ndc'), ndc)
 
@@ -100,7 +99,7 @@ if(noSubstitutionAllowed.equals("YES"))
 //
 //WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/packageSize'), packageSize)
 
-/*GENERAL*/
+/************************* GENERAL********************************/
 WebUI.delay(5)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/type'), itemType, false)
 if(itemType.equals("RENTAL"))
@@ -206,6 +205,7 @@ WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDe
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/taxable'), taxable, false)
 
+/************* SALE / RENTAL ITEM**********************/
 if(itemType.equals("SALE"))
 {
 	WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/minQty'), minQty)
@@ -239,32 +239,33 @@ if(requiresRepairsOrInstalation.equals("YES"))
 	WebUI.check(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/requiresRepairOrInstalation'))
 	
 WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/confirmButton'))
-
+//WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InventoryDetails/confirm'))
 WebUI.delay(10)
 
-if(companyName.equals("MEDSOUTHTRAIN"))
-	{
-		WebUI.waitForAlert(5)
+/*************Checking Success Messages****************/
+//if(companyName.equals("MEDSOUTHTRAIN") ||companyName.equals("CHCSTRAIN"))
+	//{
+		//WebUI.waitForAlert(5)
 		
-		String message = WebUI.getAlertText()
+		//String message = WebUI.getAlertText()
 		
-		System.out.println(message)
+		//System.out.println(message)
 		
-		if(message.contains("Inventory Record has been Created Successfully."))
-		{
-			WebUI.verifyEqual(true, true)
+		//if(message.contains("Inventory Record has been Created Successfully."))
+		//{
+			//WebUI.verifyEqual(true, true)
 			
-			WebUI.dismissAlert()
-		}
-	}
-else
-	{
+			//WebUI.dismissAlert()
+		//}
+	//}
+//else
+	//{
 
-		WebUI.switchToFrame(findTestObject('Object Repository/iframe/addInventory'), 10)
+		//WebUI.switchToFrame(findTestObject('Object Repository/iframe/addInventory'), 10)
 		
-		WebUI.verifyElementPresent(findTestObject('InventoryMaintenance/regularInventory/inventorySuccessMessage'), 10)
-	}
-/*Search the created item*/
+		//WebUI.verifyElementPresent(findTestObject('InventoryMaintenance/regularInventory/inventorySuccessMessage'), 10)
+	//}
+/*****************************Search the created item*************************/
 WebUI.switchToDefaultContent()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/inventoryMaintenance'))

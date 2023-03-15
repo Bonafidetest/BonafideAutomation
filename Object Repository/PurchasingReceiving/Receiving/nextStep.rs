@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains((.),'Next Step')]</value>
+         <value>//input[@value='Next Step']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

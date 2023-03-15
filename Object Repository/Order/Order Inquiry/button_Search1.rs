@@ -6,12 +6,11 @@
    <elementGuidId>fa0a53f7-d867-4925-af8e-2828852a8ed6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[contains(text(),&quot;Search&quot;)])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[contains((.),&quot;Search&quot;)])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
