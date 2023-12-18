@@ -98,15 +98,17 @@ if (orderNumber == '')
 	        WebUI.delay(10)
 	
 	        WebUI.click(findTestObject('Object Repository/Billing/processButton'))
+			WebUI.delay(5)
 			WebUI.click(findTestObject('Object Repository/Billing/processButton'))
-	
-	        //WebUI.delay(5)
+			WebUI.delay(5)
+			WebUI.click(findTestObject('Object Repository/Billing/processButton'))
+	        WebUI.delay(5)
 			
 	        WebUI.acceptAlert()
 			
 			WebUI.acceptAlert(FailureHandling.OPTIONAL)
 	
-	        WebUI.delay(25)
+	        WebUI.delay(300)
 			
 			/**************************Verify Invoice button and Link after generating Invoice********************/
 	

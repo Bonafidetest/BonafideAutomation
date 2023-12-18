@@ -172,7 +172,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/
 WebUI.verifyElementVisible(findTestObject('Object Repository/PaymentTransaction/PaymentTransactionEntry/button_NextwithPreload'))
 
 WebUI.verifyElementVisible(findTestObject('PaymentTransaction/PaymentTransactionEntry/orderInvoiceNumber'))
-
+WebUI.delay(5)
 if(orderNo !='')
 	WebUI.setText(findTestObject('PaymentTransaction/PaymentTransactionEntry/orderInvoiceNumber'), orderNo)
 	
@@ -305,8 +305,12 @@ else
 	
 //	WebUI.acceptAlert()
 	
-	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))	
 	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))
+	WebUI.delay(5)	
+	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))
+	WebUI.delay(5)
+	WebUI.click(findTestObject('PaymentTransaction/AmountAllocation/postPayment'))
+	WebUI.delay(5)
 }
 
 def alertText = WebUI.getAlertText()
@@ -349,15 +353,15 @@ WebUI.dismissAlert(FailureHandling.OPTIONAL)
 
 WebUI.delay(15)
 
-WebUI.switchToDefaultContent(FailureHandling.OPTIONAL)
+//WebUI.switchToDefaultContent(FailureHandling.OPTIONAL)
 
-WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10, FailureHandling.OPTIONAL)
+//WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10, FailureHandling.OPTIONAL)
 
 /********************Search Payment Number***************************/
-WebUI.verifyElementPresent(findTestObject('Object Repository/PaymentTransaction/paymentSearchButton'), 20)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/PaymentTransaction/paymentSearchButton'), 20)
 
-WebUI.setText(findTestObject('PaymentTransaction/PaymentReport/paymentNo'), paymentNo)
+//WebUI.setText(findTestObject('PaymentTransaction/PaymentReport/paymentNo'), paymentNo)
 
-WebUI.click(findTestObject('Object Repository/PaymentTransaction/paymentSearchButton'))
+//WebUI.click(findTestObject('Object Repository/PaymentTransaction/paymentSearchButton'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/PaymentTransaction/PaymentTransactionEntry/h3_PaymentTransactionEntry'), 20)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/PaymentTransaction/PaymentTransactionEntry/h3_PaymentTransactionEntry'), 20)

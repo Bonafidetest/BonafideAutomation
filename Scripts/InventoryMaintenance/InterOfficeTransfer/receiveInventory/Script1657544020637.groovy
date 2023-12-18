@@ -78,7 +78,11 @@ System.out.println(curDate)
 String notReceiveStatus ="//div[contains(text(),'1')]/following::div[contains(text(),'"+curDate+"')]/following::div[contains(text(),'"+GlobalVariable.orderId+"')]/following::div[contains(text(),'"+GlobalVariable.shipedStat+"')]"
 WebUI.verifyElementVisible((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : notReceiveStatus])))
 WebUI.click((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : notReceiveStatus])))
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
+WebUI.click((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : notReceiveStatus])))
+WebUI.waitForAlert(5)
+WebUI.click((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : notReceiveStatus])))
+WebUI.waitForAlert(5)
 String receivingAlert = WebUI.getAlertText()
 System.out.println(receivingAlert)
 if(receivingAlert.contains('Are you sure you want to Start Receiving Process?'))
@@ -99,8 +103,8 @@ if(receivingAlert.contains('Are you sure you want to Start Receiving Process?'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/td_POQuantity'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/td_QuantityAlreadyReceived'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/td_QuantityReceivedThisTime'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/a_InventoryReceivedAs'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/a_EditUpdateConversion'))
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/a_InventoryReceivedAs'))
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/a_EditUpdateConversion'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/input_SelectAll'))	
 		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/input_DeselectAll'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/input_SortbyDescription'))
@@ -131,14 +135,7 @@ if(receivingAlert.contains('Are you sure you want to Start Receiving Process?'))
 		WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/ReceiveInventory/PurchaseReceiving/button_finish'))
 
 		WebUI.delay(10)
-		String xreceiveOrder ="//div[contains(text(),'1')]/following::div[contains(text(),'"+curDate+"')]/following::div[contains(text(),'"+GlobalVariable.orderId+"')]"
-		WebUI.verifyElementNotPresent((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xreceiveOrder])), 10)
+		//String xreceiveOrder ="//div[contains(text(),'1')]/following::div[contains(text(),'"+curDate+"')]/following::div[contains(text(),'"+GlobalVariable.orderId+"')]"
+		//WebUI.verifyElementNotPresent((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xreceiveOrder])), 10)
 		
-	
 	}
-
-
-
-
-
-

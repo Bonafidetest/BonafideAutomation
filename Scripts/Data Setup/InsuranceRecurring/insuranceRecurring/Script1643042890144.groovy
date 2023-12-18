@@ -32,7 +32,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/Insuranc
 if(title == "YES" & HCPCS_CHK == "NO")
 {
 	WebUI.check(findTestObject('Object Repository/Data Setup/InsuranceRecurring/input_Title'))
-	WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'),"001278BMEDICAL", false)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'),"AFLAC", false)
 	WebUI.delay(5)
 	WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_make'), make, false)
 	WebUI.delay(5)
@@ -44,7 +44,7 @@ if(title == "YES" & HCPCS_CHK == "NO")
 if(title == "NO" & HCPCS_CHK == "YES")
 	{
 		WebUI.check(findTestObject('Object Repository/Data Setup/InsuranceRecurring/input_HCPCS_CheckBox'))
-		WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'), "001278BMEDICAL", false)
+		WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'), "AFLAC", false)
 		WebUI.delay(5)
 		WebUI.setText(findTestObject('Object Repository/Data Setup/InsuranceRecurring/input_HCPCS'), HCPCS)
 		
@@ -68,7 +68,7 @@ if(title == "NO" & HCPCS_CHK == "YES")
 	if(title == "YES" & HCPCS_CHK == "NO")
 	{
 		WebUI.check(findTestObject('Object Repository/Data Setup/InsuranceRecurring/input_Title'))
-		WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'), "001278BMEDICAL", false)
+		WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'), "AFLAC", false)
 		WebUI.delay(5)
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_make'), make, false)
 		WebUI.delay(5)
@@ -79,7 +79,7 @@ if(title == "NO" & HCPCS_CHK == "YES")
 	if(title == "NO" & HCPCS_CHK == "YES")
 		{
 			WebUI.check(findTestObject('Object Repository/Data Setup/InsuranceRecurring/input_HCPCS_CheckBox'))
-			WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'), "001278BMEDICAL", false)
+			WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/InsuranceRecurring/select_Insurance'), "AFLAC", false)
 			WebUI.delay(5)
 			WebUI.setText(findTestObject('Object Repository/Data Setup/InsuranceRecurring/input_HCPCS'), HCPCS)
 		}

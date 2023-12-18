@@ -174,6 +174,10 @@ else
 		
 		WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/CreateRequest/button_Confirm'))
 		
+		WebUI.delay(5)
+		
+		WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/CreateRequest/button_Confirm'))
+		
 	}
 
 WebUI.waitForAlert(10, FailureHandling.OPTIONAL)

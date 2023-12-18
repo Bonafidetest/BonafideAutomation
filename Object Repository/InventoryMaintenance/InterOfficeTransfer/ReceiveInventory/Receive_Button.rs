@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class=&quot;p-xs fg-1 hov-white primary&quot;])[3]</value>
+         <value>(//a[@class=&quot;p-xs fg-1 hov-white primary&quot;])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

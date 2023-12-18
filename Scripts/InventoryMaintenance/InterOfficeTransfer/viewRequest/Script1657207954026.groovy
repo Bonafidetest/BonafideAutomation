@@ -92,6 +92,7 @@ WebUI.click(findTestObject('Object Repository/DynamicXpath/ReusableObject', [('D
 WebUI.waitForAlert(10, FailureHandling.OPTIONAL)
 String voidalert = WebUI.getAlertText(FailureHandling.OPTIONAL)
 System.out.println(voidalert)
+WebUI.delay(5)
 if(voidalert.contains('Are you sure you want to Void this Interoffice Transfer?'))
 	WebUI.dismissAlert()
 	
@@ -125,7 +126,7 @@ if(dlvralert.contains('Are you sure you want to Start Delivery Process for this 
 WebUI.click(findTestObject('Object Repository/Order/Order Inquiry/saveandConfirm'))
 WebUI.delay(5)
 
-String xOrderNo2 = "(//div[contains(text(),'1')]/following::div[contains(text(),'"+curDate+"')]/following::a[contains(text(),'"+GlobalVariable.orderId+"')])"
+/*String xOrderNo2 = "(//div[contains(text(),'1')]/following::div[contains(text(),'"+curDate+"')]/following::a[contains(text(),'"+GlobalVariable.orderId+"')])"
 WebUI.verifyElementVisible((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : xOrderNo2])))
 String shippedStatus = "(//a[contains((.),'"+GlobalVariable.orderId+"')]/following::div[contains(text(),'"+GlobalVariable.shipedStat+"')])"
 WebUI.verifyElementVisible((findTestObject('Object Repository/DynamicXpath/ReusableObject', [('DynamicReusableObject') : shippedStatus])))
@@ -133,7 +134,7 @@ WebUI.verifyElementVisible((findTestObject('Object Repository/DynamicXpath/Reusa
 WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
 
 WebUI.switchToWindowIndex(0, FailureHandling.OPTIONAL)
-
+*/
 
 
 

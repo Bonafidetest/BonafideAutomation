@@ -80,7 +80,7 @@
    <testCaseLink>
       <guid>3b653766-dde1-4439-8e22-5e76772312d8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Order/OrderCreation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -156,7 +156,7 @@
    <testCaseLink>
       <guid>58438f47-10d2-45f7-bb16-089312196b99</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Order/orderChecklist</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

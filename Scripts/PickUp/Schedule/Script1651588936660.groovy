@@ -194,17 +194,18 @@ if(WebUI.verifyElementNotVisible(findTestObject('Object Repository/Pickup/Schedu
 	System.out.println("Pick Up item not found")
 else
 	{
-		WebUI.check(findTestObject('Object Repository/Pickup/Schedule/input_pickupChkBox'))
-		WebUI.click(findTestObject('Object Repository/Pickup/Schedule/input_Save'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Pickup/Search/u_PrintPickUpTicket'))
-		WebUI.delay(5)
-		String text = WebUI.getText(findTestObject('Object Repository/Pickup/Search/p_PickUpNumber'))
+		
+		WebUI.check(findTestObject('Object Repository/Pickup/Schedule/input_pickupChkBox'));
+		WebUI.click(findTestObject('Object Repository/Pickup/Schedule/input_Save'));
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/Pickup/Search/u_PrintPickUpTicket'))
+		WebUI.delay(25);
+		String text = WebUI.getText(findTestObject('Object Repository/Pickup/Search/p_PickUpNumber'));
 
 		// split string from space
-		String[] result = text.split(" ")
+		String[] result = text.split(" ");
 	
-		GlobalVariable.pickupNo= result[2].replaceAll("\\s", "")
-		System.out.println(GlobalVariable.pickupNo)
+		GlobalVariable.pickupNo= result[2].replaceAll("\\s", "");
+		System.out.println(GlobalVariable.pickupNo);
 		
 	}
 

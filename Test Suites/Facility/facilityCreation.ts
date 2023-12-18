@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>02106ad5-6e84-46c9-bcd0-07c9792c1b1c</testSuiteGuid>
    <testCaseLink>
+      <guid>27252566-6ee2-44e8-bed7-e02c55251baf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Login/loginToApplicationCHCS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>643f6a91-a879-4d37-96a7-666e8b0067a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

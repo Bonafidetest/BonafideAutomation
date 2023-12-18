@@ -54,7 +54,6 @@ WebUI.setText(findTestObject('Object Repository/InventoryMaintenance/sku'), sku)
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/InventoryMaintenance/regularInventory?search'))
 
-//input[@name="sku"]
 
 String xmake = "(//div[text()='"+GlobalVariable.make+"'])"
 

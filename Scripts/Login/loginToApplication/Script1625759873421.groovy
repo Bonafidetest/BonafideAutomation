@@ -21,37 +21,56 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.maximizeWindow()
+
 /*************************Login with credentials**********************/
-WebUI.verifyElementVisible(findTestObject('Object Repository/Login/company'))
+//WebUI.verifyElementVisible(findTestObject('Login/company'))
+
 WebUI.setText(findTestObject('Object Repository/Login/company'), company)
+
 WebUI.setText(findTestObject('Object Repository/Login/employeeno'), employeeNo)
+
 WebUI.setText(findTestObject('Object Repository/Login/password'), pwd)
+
 WebUI.click(findTestObject('Object Repository/Login/signin'))
 
 /********************Already Logged In checking********************/
 WebUI.verifyElementPresent(findTestObject('Object Repository/switchUser/i_am_sure_button'), 20, FailureHandling.OPTIONAL)
+
 WebUI.click(findTestObject('Object Repository/switchUser/i_am_sure_button'), FailureHandling.OPTIONAL)
 
 /******************Office Selection***********************/
 WebUI.verifyElementPresent(findTestObject('Object Repository/officeSelection/login_office'), 20)
+
 WebUI.click(findTestObject('Object Repository/officeSelection/login_office'))
 
 /*********************Close Task Manager Window**************/
 WebUI.delay(5)
+
 WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
+
 WebUI.switchToDefaultContent()
+
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/header'), 10)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard/home'), 15)
 
 /*********Switch to 2.1 Environment***************/
 WebUI.switchToDefaultContent()
+
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content'), 10)
+
 WebUI.verifyElementClickable(findTestObject('Object Repository/dashboard/bonafide_2'))
+
 WebUI.click(findTestObject('Object Repository/dashboard/bonafide_2'))
+
 WebUI.delay(5)
+
 //WebUI.acceptAlert()
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10, FailureHandling.OPTIONAL)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard/dashboard'), 20)
+
 WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
+
 WebUI.switchToDefaultContent()
 

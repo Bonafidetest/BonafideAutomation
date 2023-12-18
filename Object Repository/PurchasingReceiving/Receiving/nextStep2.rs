@@ -6,12 +6,11 @@
    <elementGuidId>67f91890-fd7d-4554-9a59-8923bf68f4cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//input[@class=&quot;button button-sm button-primary ml-sm button-outline&quot;])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class=&quot;button button-sm button-outline button-success mr-xs&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

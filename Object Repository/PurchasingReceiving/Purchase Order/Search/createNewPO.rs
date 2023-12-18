@@ -6,12 +6,11 @@
    <elementGuidId>c96c78d6-450a-4c99-9e17-018ab008e0c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>.//a[text()=&quot;Create New Purchase Order&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>.//a[text()=&quot;Create New PO&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
