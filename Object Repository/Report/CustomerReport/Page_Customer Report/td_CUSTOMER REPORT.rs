@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_CUSTOMER REPORT</name>
+   <tag></tag>
+   <elementGuidId>7030ab14-8233-4d36-a668-4ea776e9fe7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[3]/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.ariCtrBld.colorBlu.size18.alignCtr</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a8fbd411-d977-4d8a-af7d-195533273e0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ariCtrBld colorBlu size18 alignCtr</value>
+      <webElementGuid>d4cec734-bf84-48d5-b39a-814b11ae681e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>0d67be02-4bec-4ad4-9388-6fd906783016</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>b1b2edec-cf8a-4cbd-8bcd-5331d7516a89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>valign</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>7645ec52-a579-4ec3-8523-d98715bc8177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CUSTOMER REPORT</value>
+      <webElementGuid>78301001-1962-44fc-93e7-d41b550b4e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;horiMargin10 vertMargin10&quot;]/center[1]/table[@class=&quot;tableClps noBorder&quot;]/tbody[1]/tr[3]/td[@class=&quot;ariCtrBld colorBlu size18 alignCtr&quot;]</value>
+      <webElementGuid>df3110b3-8cc8-4245-a312-f8d1a8b5136e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td</value>
+      <webElementGuid>0d0137ad-c4fa-4d92-9f55-a72872415b9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'CUSTOMER REPORT' or . = 'CUSTOMER REPORT')]</value>
+      <webElementGuid>cae2900d-6b13-41a8-b7e1-3772a32c97c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

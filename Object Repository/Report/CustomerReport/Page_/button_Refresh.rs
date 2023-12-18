@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Refresh</name>
+   <tag></tag>
+   <elementGuidId>80a44ff8-1ad1-41a8-8b66-c7a5a8ca2a43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button.button-sm.button-warning.button-outline.mr-xs</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d467408b-9372-4753-92ae-da93f02db36b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button button-sm button-warning button-outline mr-xs</value>
+      <webElementGuid>469acd62-ae64-43f2-a076-38d43f8a8d9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>22243392-5aff-43fc-be7e-c6b2227d2291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>f4();</value>
+      <webElementGuid>4444af28-cddd-404d-a05f-c4e8fe50b6b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        
+        Refresh
+      </value>
+      <webElementGuid>ed51cdc4-b78c-4b84-ae84-b11d967fef11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[1]/td[1]/button[@class=&quot;button button-sm button-warning button-outline mr-xs&quot;]</value>
+      <webElementGuid>2aaece71-11e9-40b8-808e-da62bcada56c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/CustomerReport/Page_/iframe_content</value>
+      <webElementGuid>1936e499-9d24-4660-83e4-121830e357df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>1b3cb80b-90f5-4af0-8370-fc25c86d1604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>14e46d6e-b230-4cc2-8282-22eb5a150433</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+        
+        Refresh
+      ' or . = '
+        
+        Refresh
+      ')]</value>
+      <webElementGuid>58ec9f71-072d-4033-944d-3fe3ef67ee13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

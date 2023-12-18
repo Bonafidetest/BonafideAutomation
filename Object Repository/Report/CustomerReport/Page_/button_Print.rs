@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Print</name>
+   <tag></tag>
+   <elementGuidId>0a14de59-dd1a-47ca-a964-607121849d6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f19713a6-f25e-44e4-bd0d-1fea313c1054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button button-sm button-info button-outline mr-xs</value>
+      <webElementGuid>cf038a8d-d0cd-47fa-90cf-8d9ed0787591</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ecf2edf2-6b99-465c-ae29-27409f110eb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>doPrint()</value>
+      <webElementGuid>c1fed440-e164-4f71-a8bd-0ad08caf9351</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          
+          Print
+        </value>
+      <webElementGuid>0fe2be6b-b29c-4163-b1e7-ea83ee7476c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[41]/td[@class=&quot;right&quot;]/button[@class=&quot;button button-sm button-info button-outline mr-xs&quot;]</value>
+      <webElementGuid>7d80010a-7e43-4207-8828-496945578216</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/CustomerReport/Page_/iframe_content</value>
+      <webElementGuid>3a894cdf-c822-43f6-a20e-df4146a16417</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>d7aef78b-6346-4118-82d6-367e0b156d60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>3615fcbd-7567-4638-84af-7fdd9c7ce635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+          
+          Print
+        ' or . = '
+          
+          Print
+        ')]</value>
+      <webElementGuid>1a01c48a-acc1-4c0c-8c2b-f0d79a91d1bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_CLAIM DETAIL REPORT</name>
+   <tag></tag>
+   <elementGuidId>d2c04fcb-00ed-463f-8252-53013cf8804c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[3]/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td.ariCtrBld</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>d2d7170c-3dd3-420c-b189-3db01fe2d05a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>c80390e9-fcd0-4abd-897a-653884df57a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>d1fae7ff-64ee-466b-b160-0b929894eee6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ariCtrBld</value>
+      <webElementGuid>7905d1a0-80d4-44f6-9cbf-da2016dd87a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>valign</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>86f3f05c-51a7-416d-8669-52dfe5a8a2df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CLAIM DETAIL REPORT</value>
+      <webElementGuid>35470791-5769-4623-9513-fb17d5a37fd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/form[1]/table[@class=&quot;table table-sm fg-1&quot;]/tbody[1]/tr[3]/td[@class=&quot;ariCtrBld&quot;]</value>
+      <webElementGuid>07af7d0e-5e50-4b21-b819-4330bf5d2348</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td</value>
+      <webElementGuid>fbd2d47a-2d08-4af8-b97e-8d0013916827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'CLAIM DETAIL REPORT' or . = 'CLAIM DETAIL REPORT')]</value>
+      <webElementGuid>a1ab5c76-ec4c-4cca-8e7d-a711acd84486</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

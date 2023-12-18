@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Print</name>
+   <tag></tag>
+   <elementGuidId>0d7752c5-9543-4922-a5d4-b2c8e2a7232d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='cmdPrint']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;cmdPrint&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f8fd7919-febc-42a3-b312-e2e535000baa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cmdPrint</value>
+      <webElementGuid>44c594f9-5cb2-41b2-a748-a72437891dd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button button-sm button-info button-outline mr-xs</value>
+      <webElementGuid>fcacbc91-c1a4-483e-9003-cd2303d3f6a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1ed22bc2-84bc-4c03-87c8-1f7a7a89172b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>isPrint=true;fPrint();</value>
+      <webElementGuid>6ebefa82-cc64-476b-aaa9-015a68eb0fc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          
+          Print
+        </value>
+      <webElementGuid>e64947cc-8231-4ea4-90ad-9bb588dd3597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblReport&quot;)/tbody[1]/tr[50]/td[@class=&quot;alignRgt&quot;]/button[@class=&quot;button button-sm button-info button-outline mr-xs&quot;]</value>
+      <webElementGuid>ca6b7d29-924a-4a7a-b93a-2dd1d212adaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>1e6ac3b4-3f0a-4e86-b3c9-19f62406719c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='cmdPrint']</value>
+      <webElementGuid>4b56bd13-53e1-46dc-9111-8ea09d1dc95f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblReport']/tbody/tr[50]/td/button[2]</value>
+      <webElementGuid>4b3e9bc6-e9da-4413-bcf3-80f33d82a1fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>15674ba3-c11a-4893-b1a7-fedb1ff8729b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = 'cmdPrint' and @type = 'button' and (text() = '
+          
+          Print
+        ' or . = '
+          
+          Print
+        ')]</value>
+      <webElementGuid>8a90cdca-c962-4068-8e6a-feae4f9945a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

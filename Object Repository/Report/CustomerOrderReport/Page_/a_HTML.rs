@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_HTML</name>
+   <tag></tag>
+   <elementGuidId>0e308d15-eaba-4458-90f7-6681109f9959</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[text()='HTML'])[1]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'HTML' or . = 'HTML') and @ref_element = 'Object Repository/Report/CustomerOrderReport/Page_/iframe_content']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.green.clickButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8ce92ef3-9bfc-4bd3-b726-af6f66d5971e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>f2(5926, 'HTML')</value>
+      <webElementGuid>f77e0731-0bd9-4866-8cbf-6162796e5a66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>green clickButton</value>
+      <webElementGuid>e30292ca-be6d-4a47-b6f5-66652a9c59b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HTML</value>
+      <webElementGuid>8647984a-8cee-4035-b11f-50919c34aac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[3]/td[5]/ul[1]/li[1]/a[@class=&quot;green clickButton&quot;]</value>
+      <webElementGuid>770c795c-c09b-4dbd-b4e8-2daf591bc14d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/CustomerOrderReport/Page_/iframe_content</value>
+      <webElementGuid>1208f054-88fe-4dc7-bb4d-957cd826cac1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;f2(5926, 'HTML')&quot;]</value>
+      <webElementGuid>8e5f6fce-21c8-4496-a65f-2b1a5f440acd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'HTML')]</value>
+      <webElementGuid>5d6d08e9-2d96-442c-af64-49d7923d8a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>6e5a1792-f61a-4943-8298-ab8c78dbcd65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'HTML' or . = 'HTML')]</value>
+      <webElementGuid>6884ffad-8c5b-44b2-992f-576c2e645e26</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
