@@ -1276,8 +1276,14 @@
       <guid>362dc7f1-a242-4fd8-92dd-588b00051bf0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Report/New_InventoryStockReport</testCaseId>
+      <testCaseId>Test Cases/Report/New_InventoryStockReport(new)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b32b4a9-8e2b-4cd8-9f54-e27bc78ef57b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>580ee438-c573-45a0-bb09-daa0fac0c4e1</guid>
