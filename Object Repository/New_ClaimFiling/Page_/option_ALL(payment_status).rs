@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_ALL(payment_status)</name>
+   <tag></tag>
+   <elementGuidId>d91000b9-ea6a-486b-b4bd-30305b65c846</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//option[text()='ALL'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>b39de16e-81f3-40d2-b595-581662e625d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1704799995136</value>
+      <webElementGuid>6f8fc02b-b608-414a-9f5c-96e0f441a45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/New_ClaimFiling/Page_/iframe_Eligibility_content (1)</value>
+      <webElementGuid>e95e0086-4c38-4c76-b619-2414b5eb2147</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

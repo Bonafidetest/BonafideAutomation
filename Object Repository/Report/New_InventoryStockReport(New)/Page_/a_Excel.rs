@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Excel</name>
+   <tag></tag>
+   <elementGuidId>d90229c9-54f6-4c18-bc38-76e0a1f70a99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;f2(5965, 'Excel')&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > a.green.clickButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b4fdf9c5-9b28-4b7e-90fe-90275511a35c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>f2(5965, 'Excel')</value>
+      <webElementGuid>b30e5579-3c9f-4cd7-b38c-e1a69571ff85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>green clickButton</value>
+      <webElementGuid>a7237d64-2317-4a33-bc6d-64b15f5b37ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Excel</value>
+      <webElementGuid>fa7f622f-baa3-4d0d-b9bf-932f4ca53c7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[3]/td[5]/ul[1]/li[2]/a[@class=&quot;green clickButton&quot;]</value>
+      <webElementGuid>7e4a0645-51f7-4540-ae3d-1d99cb0fc83e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/New_InventoryStockReport(New)/Page_/iframe_Eligibility_content (1)</value>
+      <webElementGuid>f07fbe2a-8114-4143-9105-f5893a7decf7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;f2(5965, 'Excel')&quot;]</value>
+      <webElementGuid>0dedaa6d-bd22-429f-8960-7c88a2459d42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Excel')]</value>
+      <webElementGuid>d9772a8d-76eb-48dd-a789-38c44d5303e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>46d8fa85-f974-4a6e-8244-781e04f2316f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Excel' or . = 'Excel')]</value>
+      <webElementGuid>160bb696-ab8e-4679-93e3-b61c8ad03c8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

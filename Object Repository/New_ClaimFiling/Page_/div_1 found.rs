@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_1 found</name>
+   <tag></tag>
+   <elementGuidId>47ba46ac-644d-4ae2-8c41-68bc36c254a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.right</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2882043b-34b6-45d1-b2d3-8b25c09bdb22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>right</value>
+      <webElementGuid>f41ff103-f741-42ef-999b-903f6997f314</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 found.</value>
+      <webElementGuid>49dc1abc-8cd5-40d5-9cfc-3e845d3e5d7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/div[@class=&quot;cf mb-lg&quot;]/div[@class=&quot;mt-md&quot;]/div[@class=&quot;fl w-80 pl-md&quot;]/div[3]/div[@class=&quot;right&quot;]</value>
+      <webElementGuid>b9453094-9135-4cf3-84c1-4adec87bbb5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/New_ClaimFiling/Page_/iframe_Eligibility_content (2)</value>
+      <webElementGuid>98ec0302-15d2-4434-9193-c8d4c274f3d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]</value>
+      <webElementGuid>1b6629d2-b1c4-4cb5-9606-82f33d4555c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1 found.' or . = '1 found.')]</value>
+      <webElementGuid>1d9a8cca-1843-4dac-ae65-4d3698b6e87b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

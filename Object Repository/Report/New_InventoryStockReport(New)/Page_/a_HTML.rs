@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_HTML</name>
+   <tag></tag>
+   <elementGuidId>243005e0-cdfa-4f48-9cf7-a37541eedb80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@class='green clickButton'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.green.clickButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f2c64775-8cc6-4ac7-a957-2513de9ea9d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>f2(5965, 'HTML')</value>
+      <webElementGuid>17a0eee7-364f-4242-b026-06a16fe6fa7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>green clickButton</value>
+      <webElementGuid>c00f480d-77e9-4614-b235-282194ede354</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HTML</value>
+      <webElementGuid>9e4ab62b-e14e-4301-a7fc-70be0642f74d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[3]/td[5]/ul[1]/li[1]/a[@class=&quot;green clickButton&quot;]</value>
+      <webElementGuid>bcbf6b0a-8692-401b-bece-a3efbdeb1f3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/New_InventoryStockReport(New)/Page_/iframe_Eligibility_content (1)</value>
+      <webElementGuid>226bbe37-244b-47bc-808e-0f231aa2e425</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;f2(5965, 'HTML')&quot;]</value>
+      <webElementGuid>61278e93-948e-4935-8796-57c6e8772d1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'HTML')]</value>
+      <webElementGuid>ee1c50eb-9ba9-4391-ac09-40d2b95d8c86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>5f90c600-7552-497e-bc12-7e8daf882455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'HTML' or . = 'HTML')]</value>
+      <webElementGuid>1ae1d908-2533-4388-8f5f-8a3c78a676d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

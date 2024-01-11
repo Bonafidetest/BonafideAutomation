@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_ALNY - HEALTH SYSTEM SERVICES - ALBANY</name>
+   <tag></tag>
+   <elementGuidId>0c66e593-2daa-46f5-a277-aaa32c74ca18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//option[@value='ALNY']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>option[value=&quot;ALNY&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>602aa343-5dbd-464f-a0f6-9a758ff9f2d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>ALNY</value>
+      <webElementGuid>e700a29c-19a5-4b12-84c2-5588c2556eb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ALNY - HEALTH SYSTEM SERVICES - ALBANY</value>
+      <webElementGuid>01d56628-2aa1-4526-b2b2-452555ff36ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[2]/td[1]/table[@class=&quot;table table-sm w-100&quot;]/tbody[1]/tr[2]/td[2]/select[@class=&quot;input input-sm&quot;]/option[2]</value>
+      <webElementGuid>75b70ad5-82a2-4522-870f-4edb50ae3b71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/New_AgingReport(new)/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>a728806f-0318-4e0d-9326-4b4c009d785d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//option[@value='ALNY']</value>
+      <webElementGuid>683a9552-0902-4cbe-809e-2111d335a37a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//option[2]</value>
+      <webElementGuid>fe6a96e2-9d5d-4162-a996-bda799318076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//option[(text() = 'ALNY - HEALTH SYSTEM SERVICES - ALBANY' or . = 'ALNY - HEALTH SYSTEM SERVICES - ALBANY')]</value>
+      <webElementGuid>d69df981-13db-45f0-ba17-5a283a2fe840</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Claim Filing</name>
+   <tag></tag>
+   <elementGuidId>f56982f5-5ce3-454a-a642-86f290fdd205</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[11]/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.df.ai-center.bg-primary > a.px-sm.py-xs.td-none.fg-1.c-pointer.hov-white.main-menu.white</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1295a1e0-14be-4513-b0e6-a57b566a7183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-loading</name>
+      <type>Main</type>
+      <value>N</value>
+      <webElementGuid>9ea682c2-16b3-49bc-940b-fe92d87cc0ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/meds/servlet/com.meds.claim.servlet.ClaimSearch</value>
+      <webElementGuid>c86e7917-8806-4974-a6b0-5a7d56ac409e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-sm py-xs td-none fg-1 c-pointer hov-white main-menu white</value>
+      <webElementGuid>a6d71e08-b374-45c3-ba32-4f04f1fe31e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>7844911f-b0d6-47e7-83d4-13f506783916</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Claim Filing</value>
+      <webElementGuid>64ad0fd0-b101-47ad-9236-55b55284cd02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showSidebar&quot;)/div[@class=&quot;sidebar-placeholder&quot;]/div[1]/div[1]/nav[@class=&quot;pb-lg&quot;]/div[1]/div[1]/nav[1]/div[11]/div[1]/div[@class=&quot;df ai-center bg-primary&quot;]/a[@class=&quot;px-sm py-xs td-none fg-1 c-pointer hov-white main-menu white&quot;]</value>
+      <webElementGuid>39453a12-323a-4475-8f65-8c7a9f4d8ee6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[11]/div/div/a</value>
+      <webElementGuid>ed45427e-98c0-4d87-bb11-6a750f39db21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Claim Filing')])[2]</value>
+      <webElementGuid>d1eca1b7-e88a-45e3-84fc-0257e718da61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/meds/servlet/com.meds.claim.servlet.ClaimSearch')]</value>
+      <webElementGuid>27edecd0-1514-473a-8488-04c6e8f9ac5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/a</value>
+      <webElementGuid>5f45e7df-dfb5-42d9-8d4f-3d7c1b59b766</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/meds/servlet/com.meds.claim.servlet.ClaimSearch' and (text() = 'Claim Filing' or . = 'Claim Filing')]</value>
+      <webElementGuid>2becc791-6093-468c-b11a-8f400e5e2f36</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

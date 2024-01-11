@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Searching Criteria</name>
+   <tag></tag>
+   <elementGuidId>a8e91729-3459-4485-8b7c-915a8b2eef87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.accordion.my-none.fw-bold.gray-darkest</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1f3cc481-f2da-4b88-8fd4-f533e9bed187</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>accordion my-none fw-bold gray-darkest</value>
+      <webElementGuid>5054cff3-e155-4b83-9547-10ada78cf330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4c37ac97-5e06-4234-abdb-9f19b222143c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Searching Criteria</value>
+      <webElementGuid>1c31708f-f9bf-4f43-83b5-08c84d0797b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/div[@class=&quot;cf mb-lg&quot;]/div[@class=&quot;claim-search-form-placeholder&quot;]/div[@class=&quot;bs-1&quot;]/button[@class=&quot;accordion my-none fw-bold gray-darkest&quot;]</value>
+      <webElementGuid>ce954504-2e31-4336-a7c4-13a1d30a0ac3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/New_ClaimFiling/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>cc3aea2f-8322-4413-99ca-a66bd09cb949</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>75ebe5ff-dfad-4e17-b10a-f493e46b2947</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>cd03204e-ad2e-4420-a354-139f55133356</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Searching Criteria' or . = 'Searching Criteria')]</value>
+      <webElementGuid>e01c05fd-4ed4-4492-859b-660b559e1973</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

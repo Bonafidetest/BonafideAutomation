@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_CUSTOMER ID</name>
+   <tag></tag>
+   <elementGuidId>51d42311-6e64-49a2-a766-0ec4321efd0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblReport']/tbody/tr[8]/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(8) > td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>c2639cce-546e-462b-8029-e9877ed77c0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CUSTOMER ID</value>
+      <webElementGuid>ed930d45-9f00-48ea-96c6-df73af287a9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblReport&quot;)/tbody[1]/tr[8]/td[1]</value>
+      <webElementGuid>9b7840db-3e3d-410e-9dfc-7c4cf191728a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Report/New_InvoiceRegisterReport/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>d717d040-369e-401f-acd8-43a9f1668143</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblReport']/tbody/tr[8]/td</value>
+      <webElementGuid>05182ebd-db24-4872-b0e5-99f2ecfb8ed1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[8]/td</value>
+      <webElementGuid>1d10a7cd-ecc5-4257-82a9-b892eb5e565a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'CUSTOMER ID' or . = 'CUSTOMER ID')]</value>
+      <webElementGuid>d94a8062-b528-47b4-9bbb-671f352ae329</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

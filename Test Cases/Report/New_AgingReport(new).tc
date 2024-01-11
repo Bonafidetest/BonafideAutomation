@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New_AgingReport(new)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdfa28ad-6fc1-4768-adaa-ff88f3ad6fc2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d906ca63-b44a-4545-b5ec-954ddbe48526</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1132'</defaultValue>
+      <description></description>
+      <id>d906ca63-b44a-4545-b5ec-954ddbe48526</id>
+      <masked>false</masked>
+      <name>CustID</name>
+   </variable>
+</TestCaseEntity>

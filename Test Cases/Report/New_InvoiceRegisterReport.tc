@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New_InvoiceRegisterReport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4c9157c-8b79-41fc-9aed-4a61a7f4744d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9270fd87-7832-4e9d-a9c5-fc71c4791064</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'11730'</defaultValue>
+      <description></description>
+      <id>9270fd87-7832-4e9d-a9c5-fc71c4791064</id>
+      <masked>false</masked>
+      <name>CustID</name>
+   </variable>
+</TestCaseEntity>

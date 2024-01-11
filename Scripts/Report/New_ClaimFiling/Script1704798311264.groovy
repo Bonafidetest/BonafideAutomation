@@ -17,24 +17,44 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Report/InventoryStockReport/Page_/a_Reports'))
+WebUI.callTestCase(findTestCase('Login/loginToApplication'), [('company') : 'HSSTRAIN', ('employeeNo') : '9994', ('pwd') : '1234'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('New_ClaimFiling/Page_/a_Claim Filing'))
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('New_ClaimFiling/Page_/button_Searching Criteria'))
+
+WebUI.verifyElementPresent(findTestObject('New_ClaimFiling/Page_/td_Claim No'), 0)
+
+WebUI.setText(findTestObject('New_ClaimFiling/Page_/input_Claim No_claimno'), '164331')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Report/InventoryStockReport/Page_/a_Inventory Stock Report'))
+WebUI.scrollToElement(findTestObject('New_ClaimFiling/Page_/option_ALL(claim_status)'), 0)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Report/InventoryStockReport/Page_/input_txtSku'), '180516')
+WebUI.selectOptionByIndex(findTestObject('New_ClaimFiling/Page_/option_ALL(claim_status)'), 0)
 
-WebUI.scrollToElement(findTestObject('Report/InventoryStockReport/Page_/button_Print'), 0)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Report/InventoryStockReport/Page_/button_Print'))
+WebUI.click(findTestObject('New_ClaimFiling/Page_/option_ALL(curr_cond)'))
 
-WebUI.navigateToUrl('https://medsqa-alb.bonafide.com/meds/rep/inventory/invstockreport_print.jsp')
+WebUI.delay(5)
 
-WebUI.switchToWindowIndex(1)
+WebUI.click(findTestObject('New_ClaimFiling/Page_/option_ALL(payment_status)'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Report/InventoryStockReport/Page_Bonafide DME Software (Inventory Stock_e9791c/td_INVENTORY STOCK REPORT'), 
-    'INVENTORY STOCK REPORT')
+WebUI.delay(5)
+
+WebUI.click(findTestObject('New_ClaimFiling/Page_/button_Search'))
+
+WebUI.verifyElementPresent(findTestObject('New_ClaimFiling/Page_/div_1 found'), 0)
+
+WebUI.click(findTestObject('New_ClaimFiling/Page_/input_RR-DD_chkNo0'))
+
+WebUI.verifyElementText(findTestObject(null), '164331')
+
+WebUI.click(findTestObject('New_ClaimFiling/Page_/a_164331'))
 

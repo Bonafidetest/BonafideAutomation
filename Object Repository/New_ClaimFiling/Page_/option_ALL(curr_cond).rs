@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_ALL(curr_cond)</name>
+   <tag></tag>
+   <elementGuidId>d6689120-7af7-4886-ab04-603b2d8b1dae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//option[text()='ALL'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>74d6f0bf-66d1-41b3-a628-34d009257191</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1704800271896</value>
+      <webElementGuid>6422ad31-1009-4979-80c9-0ebf7889331e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/New_ClaimFiling/Page_/iframe_Eligibility_content (1)</value>
+      <webElementGuid>55ab4cfd-5e53-4cbd-8b50-508ac21955b6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

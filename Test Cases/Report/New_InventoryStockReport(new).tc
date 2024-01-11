@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New_InventoryStockReport(new)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b4b7121-1d12-41a1-bd23-5213a106ab3b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b32b4a9-8e2b-4cd8-9f54-e27bc78ef57b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LG3HT'</defaultValue>
+      <description></description>
+      <id>0b32b4a9-8e2b-4cd8-9f54-e27bc78ef57b</id>
+      <masked>false</masked>
+      <name>SKU</name>
+   </variable>
+</TestCaseEntity>

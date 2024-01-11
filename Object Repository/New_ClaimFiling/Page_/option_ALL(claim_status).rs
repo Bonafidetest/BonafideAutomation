@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_ALL(claim_status)</name>
+   <tag></tag>
+   <elementGuidId>7fd64d2d-9c60-4a07-907b-dada1118c51a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//option[text()='ALL'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;curcon&quot;] > option[value=&quot;ALL&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>4d1065ee-ae32-4eb5-891c-1666362b59f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>ALL</value>
+      <webElementGuid>cc70d53a-5352-468a-84a6-253566f9962d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ALL</value>
+      <webElementGuid>fc879a7e-f656-4b3a-95af-4ca559a0d08b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-md m-none bg-gray-lightest&quot;]/form[1]/div[@class=&quot;cf mb-lg&quot;]/div[@class=&quot;claim-search-form-placeholder&quot;]/div[@class=&quot;bs-1&quot;]/div[@class=&quot;panel&quot;]/div[@class=&quot;bg-white clearfix df&quot;]/div[@class=&quot;df fg-1&quot;]/table[@class=&quot;table table-sm w-100&quot;]/tbody[1]/tr[7]/td[2]/select[@class=&quot;input input-sm&quot;]/option[1]</value>
+      <webElementGuid>bf4ba533-6f06-4b90-b0ed-17b9d59e642d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/New_ClaimFiling/Page_/iframe_Eligibility_content (1)</value>
+      <webElementGuid>4c209685-b463-4fbd-b25b-9bd8bfba5778</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//option[@value='ALL'])[1]</value>
+      <webElementGuid>81f891a4-aeb4-4a53-9dcc-7f47bdd41e87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td[2]/select/option</value>
+      <webElementGuid>7e69cc52-79ea-4a2f-918a-6f7746c9ce72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//option[(text() = 'ALL' or . = 'ALL')]</value>
+      <webElementGuid>a50febb7-e0c8-42e8-91d7-00606d82dc60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

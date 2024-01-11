@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_INVOICE REGISTER REPORT</name>
+   <tag></tag>
+   <elementGuidId>520408a6-bba5-47dc-b9a7-38b69c86f1dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/table/tbody/tr[3]/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.ariCtrBld.size18</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>6376e37e-d30f-4322-92fc-aa949ce4cc0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ariCtrBld size18</value>
+      <webElementGuid>b04da263-86c8-4bb6-97af-bb5c114cc9a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>14f42e49-8e56-4570-a919-4de9bc8f091e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>valign</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>09a30f67-b4d2-4085-ba78-c4a020324832</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>INVOICE REGISTER REPORT</value>
+      <webElementGuid>c15070bf-fcba-4565-9951-54882a900afc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;horiMargin10 vertMargin10&quot;]/form[1]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;table table-sm w-100&quot;]/tbody[1]/tr[3]/td[@class=&quot;ariCtrBld size18&quot;]</value>
+      <webElementGuid>04c9dd64-cfed-4e66-8038-cd408705bace</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr[3]/td</value>
+      <webElementGuid>957a7f4d-7ed7-46a4-868c-70b8beb9ba45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'INVOICE REGISTER REPORT' or . = 'INVOICE REGISTER REPORT')]</value>
+      <webElementGuid>395369cf-aa66-43d3-8d8e-11f8ac02a08f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
