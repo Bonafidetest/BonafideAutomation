@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Task Manager (New)</name>
+   <tag></tag>
+   <elementGuidId>d911b94d-d26a-4088-9b8e-7c747eb2f532</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#taskmanagerNew</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@class=&quot;fal fa-tasks mr-xs&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>86db7467-f409-4af4-8fe5-246486199afa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:launchTaskNew();</value>
+      <webElementGuid>e4759547-da92-4be5-b5ca-6382f2295396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>db primary hov-white hov-bg-primary bt bc-gray-lightest px-sm py-xs td-none undefined</value>
+      <webElementGuid>f7603e9a-f967-4e08-a623-7efeb6180180</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>taskmanagerNew</value>
+      <webElementGuid>1c99f8b5-92a3-4550-969e-2bcb55187869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Task Manager (New)</value>
+      <webElementGuid>d6d97104-b13d-4614-87de-067a1be87fc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;taskmanagerNew&quot;)</value>
+      <webElementGuid>72db63db-6718-4046-9468-314c5449a008</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='taskmanagerNew']</value>
+      <webElementGuid>9163968a-7dd2-447f-a642-c0701384d62b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-header df']/div[2]/div/nav/div/span[3]/div/div/nav/a[3]</value>
+      <webElementGuid>bdad87ab-ff64-48b3-ba6b-2d3d44d0016f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Task Manager (New)')]</value>
+      <webElementGuid>8ebb366f-5c6a-4404-8b6e-75546b530d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:launchTaskNew();')]</value>
+      <webElementGuid>ae323928-827c-47f7-85b0-54e74152b43d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>e67aa475-78a2-45a0-beeb-831cd3fa3409</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:launchTaskNew();' and @id = 'taskmanagerNew' and (text() = ' Task Manager (New)' or . = ' Task Manager (New)')]</value>
+      <webElementGuid>927edea5-7c50-4dab-9557-f59c06955e30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

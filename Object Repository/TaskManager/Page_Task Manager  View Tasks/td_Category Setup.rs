@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Category Setup</name>
+   <tag></tag>
+   <elementGuidId>f2dc9f49-0d85-4c82-98f9-14eacd27ed8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tabs-bg']/table/tbody/tr/td[2]/div/a/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a > table.tabBg > tbody > tr > td.tabIdv</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>1a4e517f-f601-42a2-afc4-e0163845db26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabIdv</value>
+      <webElementGuid>22897a9a-b565-49ae-a8dc-85e5539eef02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Category Setup</value>
+      <webElementGuid>6f88d012-947b-4739-8f8f-12f1c1d1104c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabs-bg&quot;)/table[@class=&quot;tabsBg&quot;]/tbody[1]/tr[1]/td[@class=&quot;tabStp&quot;]/div[@class=&quot;tabOff&quot;]/a[1]/table[@class=&quot;tabBg&quot;]/tbody[1]/tr[1]/td[@class=&quot;tabIdv&quot;]</value>
+      <webElementGuid>d8b1c74e-57d7-4f2e-b066-eff35dad3101</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabs-bg']/table/tbody/tr/td[2]/div/a/table/tbody/tr/td</value>
+      <webElementGuid>529c44f8-c453-4747-a383-0d63b59e42b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/table/tbody/tr/td</value>
+      <webElementGuid>0a885beb-9310-4b8b-8b77-a82b6132590d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Category Setup' or . = 'Category Setup')]</value>
+      <webElementGuid>5c502d42-438b-4555-9637-00c9baa19e39</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

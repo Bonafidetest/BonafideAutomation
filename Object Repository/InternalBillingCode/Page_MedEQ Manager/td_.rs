@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_</name>
+   <tag></tag>
+   <elementGuidId>15ff94db-2930-48dc-894f-2485b247910a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/td[2]/table/tbody/tr[3]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>7b93b7da-c13f-4d54-9d2a-8092bdb5bb3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> </value>
+      <webElementGuid>43cae9f8-f42a-4d68-8513-80e608c262d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bodyNoMargin&quot;]/center[1]/table[3]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[2]/td[@class=&quot;pwloginEl&quot;]/table[1]/tbody[1]/tr[3]/td[2]</value>
+      <webElementGuid>e9096121-9b04-4af3-887e-1515e2a858c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]/table/tbody/tr[3]/td[2]</value>
+      <webElementGuid>33b5e614-23a1-462c-af2a-42187f4fd4bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = ' ' or . = ' ')]</value>
+      <webElementGuid>ec4c5802-1094-48a3-af63-ef3666993aa8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

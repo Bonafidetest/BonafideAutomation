@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Reference No</name>
+   <tag></tag>
+   <elementGuidId>932756b3-bfc2-47b0-bec4-c1f4d134b758</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='task-list']/tbody/tr/td[7]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(7) > a.sortable</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>04a40159-12c8-466a-9061-293ef6f481d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Sort by Task Reference No</value>
+      <webElementGuid>32aa5a7c-d33f-4112-a5ff-3a9f197a6f97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>L_RN</value>
+      <webElementGuid>f2c0f3e2-62d3-445b-8a17-740942db9007</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sortable</value>
+      <webElementGuid>e673e4f5-0acc-4261-b13a-4600339e0bb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>5f034bd9-39a2-43f4-8473-26d28cb2b8bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reference No</value>
+      <webElementGuid>4dccb60d-be72-4eb5-ab1b-b13c5e15157b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;task-list&quot;)/tbody[1]/tr[@class=&quot;header&quot;]/td[7]/a[@class=&quot;sortable&quot;]</value>
+      <webElementGuid>e5314551-9863-4a82-99d3-8014727d73d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='task-list']/tbody/tr/td[7]/a</value>
+      <webElementGuid>46774711-edfc-4b17-a6bb-36851e56c2fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Reference No')]</value>
+      <webElementGuid>59700abe-8b3f-41ed-9345-1411590072f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:;')])[8]</value>
+      <webElementGuid>9ba9511b-b75d-4fa6-842b-80e662146d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/a</value>
+      <webElementGuid>61fd8b03-3aba-40ff-b434-788b09096e60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Sort by Task Reference No' and @href = 'javascript:;' and (text() = 'Reference No' or . = 'Reference No')]</value>
+      <webElementGuid>1e181a7b-8db3-44e4-a798-62e8c6ce8441</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

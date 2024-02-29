@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Data Setup</name>
+   <tag></tag>
+   <elementGuidId>0611b1d1-9626-4431-a569-d7d4d35b8c0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.df.ai-center.bg-primary > a.px-sm.py-xs.td-none.fg-1.c-pointer.hov-white.main-menu.white</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>16dc9c26-0c4f-4e07-a48a-9fe908a48e68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-loading</name>
+      <type>Main</type>
+      <value>N</value>
+      <webElementGuid>b7ae5114-20a3-4250-8428-e2919eb9d7be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-sm py-xs td-none fg-1 c-pointer hov-white main-menu white</value>
+      <webElementGuid>cb37b02c-5bbf-4e61-ac07-40828a2d4518</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>5448c51d-6759-42d3-9728-e7056d8120e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Data Setup</value>
+      <webElementGuid>56650e44-74dd-4e57-a192-c3a628a6092c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showSidebar&quot;)/div[@class=&quot;sidebar-placeholder&quot;]/div[1]/div[1]/nav[@class=&quot;pb-lg&quot;]/div[1]/div[1]/nav[1]/div[3]/div[1]/div[@class=&quot;df ai-center bg-primary&quot;]/a[@class=&quot;px-sm py-xs td-none fg-1 c-pointer hov-white main-menu white&quot;]</value>
+      <webElementGuid>fa45e03a-ccd4-4bf7-a37e-15eea64ddfa3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/div/a</value>
+      <webElementGuid>ac7321cb-ccc3-4337-ab14-13744c637d1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Data Setup')]</value>
+      <webElementGuid>58aa1789-bb21-48b9-aad7-797d8e57b98e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/a</value>
+      <webElementGuid>e675c267-e477-45ff-bdc3-7919c312ad04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Data Setup' or . = 'Data Setup')]</value>
+      <webElementGuid>dd544e1d-b83c-4374-bcd4-631c21d89010</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

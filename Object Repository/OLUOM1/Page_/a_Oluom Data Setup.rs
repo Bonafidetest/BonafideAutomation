@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Oluom Data Setup</name>
+   <tag></tag>
+   <elementGuidId>d98c8ed5-8cb0-4baf-87d3-68251087bd5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(29) > a.db.px-sm.py-xs.td-none.gray-dark.hov-bg-primary.hov-white.main-menu</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/nav/div[29]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1a75fe12-6c2d-454c-b615-446322ace753</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>db px-sm py-xs td-none gray-dark hov-bg-primary hov-white main-menu</value>
+      <webElementGuid>c26a8fe9-34d6-4a90-9d4c-e830a7a9aa33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-loading</name>
+      <type>Main</type>
+      <value>N</value>
+      <webElementGuid>027eae0f-a8e4-4e8f-9993-52161a8b9c56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/meds/servlet/com.meds.cust.servlet.OluomSrch</value>
+      <webElementGuid>3d02f9f1-97b2-4edd-9d6a-9514b774ff3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>cbe3ad39-748e-4376-8ca3-9cd6b067b914</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Oluom Data Setup</value>
+      <webElementGuid>e15f5aae-89b2-4701-9aa6-d22dadd071bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showSidebar&quot;)/div[@class=&quot;sidebar-placeholder&quot;]/div[1]/div[1]/nav[@class=&quot;pb-lg&quot;]/div[1]/div[1]/nav[1]/div[3]/div[1]/nav[@class=&quot;db&quot;]/div[29]/a[@class=&quot;db px-sm py-xs td-none gray-dark hov-bg-primary hov-white main-menu&quot;]</value>
+      <webElementGuid>ff6e83c6-ef73-4c65-8d79-c8788774fa2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showSidebar']/div/div/div/nav/div/div/nav/div[3]/div/nav/div[29]/a</value>
+      <webElementGuid>ac1939df-e7d1-458b-ba7f-85c3ba17a188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Oluom Data Setup')]</value>
+      <webElementGuid>d7c288ee-3a47-43a5-95d9-c628973ecbad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/meds/servlet/com.meds.cust.servlet.OluomSrch')]</value>
+      <webElementGuid>18e2749e-8f75-47be-aff7-9b3ff80e7587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[29]/a</value>
+      <webElementGuid>2a83f870-5fa4-4334-adb2-4385f493dc77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/meds/servlet/com.meds.cust.servlet.OluomSrch' and (text() = 'Oluom Data Setup' or . = 'Oluom Data Setup')]</value>
+      <webElementGuid>23991e57-18f3-4de1-8681-988bef94e382</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_modify delete</name>
+   <tag></tag>
+   <elementGuidId>9fd5b493-afb3-401d-8762-cc28656bd694</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='hcpcsins']/tr[2]/td[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b5c87175-4760-4567-92e7-f735298cf248</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>solid0</value>
+      <webElementGuid>66011047-0c7b-4536-a38a-a22f86573f9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>modify     delete</value>
+      <webElementGuid>1fd33612-f1bf-4e9b-b7c7-a0294cd0a16a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hcpcsins&quot;)/tr[2]/td[@class=&quot;solid0&quot;]</value>
+      <webElementGuid>d39d9de9-851a-41ac-9a19-95025f38f2ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/InternalBillingCode/Page_/iframe_Eligibility_content</value>
+      <webElementGuid>78bd7094-3b5e-49e5-8195-e360fc99aaff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='hcpcsins']/tr[2]/td[4]</value>
+      <webElementGuid>6dafbd3e-dec0-4a8c-84a4-c26529a4457e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[4]</value>
+      <webElementGuid>13851992-0b92-4d9c-bcf5-a0238f7f4c50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'modify     delete' or . = 'modify     delete')]</value>
+      <webElementGuid>b1c25d7e-bee3-460b-b051-32029dce80b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
