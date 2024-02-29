@@ -17,69 +17,63 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/********************Click on Order Step Setup*****************/
-// switching to main menu
-WebUI.switchToDefaultContent()
+WebUI.callTestCase(findTestCase('Login/loginToApplication'), [('company') : 'HSSTRAIN', ('employeeNo') : '9994', ('pwd') : '1234'])
 
-// verifying if data setup option is present in main menu
-WebUI.verifyElementVisible(findTestObject('Object Repository/dashboard/dataSetup'))
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_/a_Data Setup'))
 
-// clicking on data setup in main menu
-WebUI.click(findTestObject('Object Repository/dashboard/dataSetup'))
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_/a_Oluom Data Setup'))
 
-// verifying if Order step setup option is present in data setup menu
-WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/OLUOM/oluom data setup'))
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_/img'))
 
-// click on order step setup option present in data setup menu
-WebUI.click(findTestObject('Object Repository/Data Setup/OLUOM/oluom data setup'))
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_/a_Click              here'))
 
-// waiting for order step setup page to load
+WebUI.delay(2)
+
+WebUI.switchToWindowTitle('MedEQ Oluom Maintenance')
+
+WebUI.setText(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/input_BmsEdiId_bmsEdiId'), '39284AFG')
+
+WebUI.setText(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/input_Catalogno_catalogno'), '793487DE')
+
+WebUI.setText(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/input_VUOM_vuom'), 'CX')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/select_EA                    BX            _7b3fc1'), 'EA', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/select_EA                    BX            _7b3fc1'), 'BX', true)
+
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/button_Submit'))
+
+WebUI.delay(2)
+
+WebUI.switchToWindowTitle('')
+
+WebUI.setText(findTestObject('Object Repository/OLUOM1/Page_/input_BmsEdiId_bmsEdiId'), '39284AFG')
+
+WebUI.setText(findTestObject('Object Repository/OLUOM1/Page_/input_Catalogno_catalogno'), '793487DE')
+
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_/button_Search'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_/div_39284AFG'))
+
+WebUI.delay(2)
+
+WebUI.switchToWindowTitle('MedEQ Oluom Maintenance')
+
+WebUI.setText(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/input_Catalogno_catalogno'), '793487DET')
+
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_MedEQ Oluom Maintenance/button_Submit'))
+
+WebUI.delay(2)
+
+WebUI.switchToWindowTitle('')
+
+WebUI.click(findTestObject('Object Repository/OLUOM1/Page_/a_delete'))
+
+WebUI.delay(1)
+
+WebUI.acceptAlert()
+
 WebUI.delay(5)
-//WebUI.click(findTestObject('Object Repository/Data Setup/OLUOM/Three dot'))
-// switching to different iFrame
-//WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
-WebUI.switchToFrame(findTestObject('Object Repository/Data Setup/OLUOM/content2.2'), 10)
-WebUI.delay(5)
-//WebUI.click(findTestObject('Object Repository/OLUOM/header'))
-//WebUI.delay(1)
-// verifying if click here button is present
-//WebUI.verifyElementVisible('Object Repository/OLUOM/Click here')
 
-// click on click here button
-WebUI.click(findTestObject('Object Repository/Data Setup/OLUOM/Click here'))
-//WebUI.click(findTestObject('Object Repository/OLUOM/search'))
-// verify BmsEdild field present
-WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/OLUOM/BmsEdild'))
-
-// enter data in BmsEdild field 
-WebUI.setText(findTestObject('Object Repository/Data Setup/OLUOM/BmsEdild'), "Test_Bonafide")
-
-// verify Catalogno field present
-WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/OLUOM/Catalogno'))
-
-// enter data in Catalogno field
-WebUI.setText(findTestObject('Object Repository/Data Setup/OLUOM/Catalogno'), "E657KJH")
-
-// verify VUOM field present
-WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/OLUOM/VUOM'))
-
-// enter data in VUOM field
-WebUI.setText(findTestObject('Object Repository/Data Setup/OLUOM/VUOM'), "BX")
-
-// verify CUOM field present
-WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/OLUOM/CUOM'))
-
-// enter data in CUOM field
-WebUI.setText(findTestObject('Object Repository/Data Setup/OLUOM/CUOM'), "BX")
-
-// verify submit button is present or not
-WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/OLUOM/Submit'))
-
-// click on submit button
-WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/OLUOM/Submit'))
-
-// verifying if click here button is present
-//WebUI.verifyElementVisible('Object Repository/OLUOM/Click here')
-
-// click on click here button
-//WebUI.click(findTestObject('Object Repository/OLUOM/Click here'))

@@ -351,7 +351,8 @@ WebUI.verifyEqual(alertText, 'Do you want to print Billing Statements now?', Fai
 
 WebUI.dismissAlert(FailureHandling.OPTIONAL)
 
-WebUI.delay(15)
+WebUI.delay(5)
+WebUI.acceptAlert()
 
 //WebUI.switchToDefaultContent(FailureHandling.OPTIONAL)
 

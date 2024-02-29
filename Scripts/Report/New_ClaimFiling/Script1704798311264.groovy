@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/loginToApplication'), [('company') : 'HSSTRAIN', ('employeeNo') : '9994', ('pwd') : '1234'], 
-    FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login/loginToApplication'), [('company') : 'HSSTRAIN', ('employeeNo') : '9994', ('pwd') : '1234'], 
+// FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('New_ClaimFiling/Page_/a_Claim Filing'))
 
@@ -32,13 +32,13 @@ WebUI.setText(findTestObject('New_ClaimFiling/Page_/input_Claim No_claimno'), '1
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('New_ClaimFiling/Page_/option_ALL(claim_status)'), 0)
+//WebUI.scrollToElement(findTestObject('New_ClaimFiling/Page_/option_ALL(claim_status)'), 0)
 
-WebUI.delay(5)
+//WebUI.delay(5)
 
-WebUI.selectOptionByIndex(findTestObject('New_ClaimFiling/Page_/option_ALL(claim_status)'), 0)
+//WebUI.click(findTestObject('New_ClaimFiling/Page_/option_ALL(claim_status)'))
 
-WebUI.delay(5)
+//WebUI.delay(5)
 
 WebUI.click(findTestObject('New_ClaimFiling/Page_/option_ALL(curr_cond)'))
 
@@ -54,7 +54,7 @@ WebUI.verifyElementPresent(findTestObject('New_ClaimFiling/Page_/div_1 found'), 
 
 WebUI.click(findTestObject('New_ClaimFiling/Page_/input_RR-DD_chkNo0'))
 
-WebUI.verifyElementText(findTestObject(null), '164331')
+WebUI.verifyElementPresent(findTestObject('New_ClaimFiling/Page_/a_164331'), 0)
 
 WebUI.click(findTestObject('New_ClaimFiling/Page_/a_164331'))
 

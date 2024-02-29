@@ -99,7 +99,7 @@ while(zcf<=zct)
 
 /*************Update By State/County/City***************/
 WebUI.switchToDefaultContent()
-WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
+//WebUI.switchToFrame(findTestObject('Object Repository/iframe/content2.1'), 10)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Data Setup/TaxRateSetup/rentalTaxRateSetUp'), 10)
 WebUI.click(findTestObject('Object Repository/Data Setup/TaxRateSetup/rentalTaxRateSetUp'))
 WebUI.delay(5)
@@ -107,10 +107,10 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Data Setup/TaxRateS
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Data Setup/TaxRateSetup/taxRateUpdate'), "BY STATE / COUNTY / CITY", false)
 
 WebUI.switchToFrame(findTestObject('Object Repository/iframe/updfrm'), 10)
-//WebUI.selectOptionByIndex(findTestObject('Object Repository/Data Setup/TaxRateSetup/updateState'), Integer.parseInt(state))
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Data Setup/TaxRateSetup/updateState'), Integer.parseInt(state))
 WebUI.delay(5)
-//WebUI.selectOptionByIndex(findTestObject('Object Repository/Data Setup/TaxRateSetup/updateCounty'), Integer.parseInt(county))
-//WebUI.selectOptionByIndex(findTestObject('Object Repository/Data Setup/TaxRateSetup/searchCounty'), Integer.parseInt(county))
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Data Setup/TaxRateSetup/updateCounty'), Integer.parseInt(county))
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Data Setup/TaxRateSetup/searchCounty'), Integer.parseInt(county))
 WebUI.delay(5)
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Data Setup/TaxRateSetup/updateCity'), Integer.parseInt(city))
 WebUI.setText(findTestObject('Object Repository/Data Setup/TaxRateSetup/stateRate'), stateRate)

@@ -1288,8 +1288,55 @@
    <testCaseLink>
       <guid>580ee438-c573-45a0-bb09-daa0fac0c4e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Report/New_ClaimDetailReport</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a87831d3-fb22-42f3-9452-b58b85c28c89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Report/New_AgingReport(new)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d906ca63-b44a-4545-b5ec-954ddbe48526</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae39d1a7-0cf1-43ed-a613-e030dac52d02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Report/New_InvoiceRegisterReport</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9270fd87-7832-4e9d-a9c5-fc71c4791064</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65cc85a3-7579-4c88-8c9d-d34f28fabb53</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Report/New_ClaimFiling</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c874995a-40a0-4b4a-82ac-0500fc0ff2bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TaskManager/searchTaskByID</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92a11bdc-cba0-4388-9f1c-9df5ff5db49c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TaskManager/searchTaskByReference</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

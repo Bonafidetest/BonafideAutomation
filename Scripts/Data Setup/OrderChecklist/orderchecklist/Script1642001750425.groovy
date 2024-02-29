@@ -48,5 +48,5 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Data Setup/orderChe
 WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/orderChecklist/delete_icon'))
 WebUI.click(findTestObject('Object Repository/Data Setup/orderChecklist/delete_icon'))
 WebUI.waitForAlert(10)
-// WebUI.acceptAlert()
+WebUI.acceptAlert()
 

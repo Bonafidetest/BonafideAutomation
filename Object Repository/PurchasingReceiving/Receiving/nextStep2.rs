@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@class=&quot;button button-sm button-primary ml-sm button-outline&quot;])[2]</value>
+         <value>//i[@class=&quot;far fa-arrow-right mr-xxs&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

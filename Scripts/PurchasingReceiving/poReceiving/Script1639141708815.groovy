@@ -103,21 +103,21 @@ WebUI.setText(findTestObject('Object Repository/PurchasingReceiving/Receiving/re
 WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep2'))
 
 /**************Step2**********/
-//WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/step2'))
-//WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep1'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/step2'))
+WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/nextStep1'))
 
 /*************Step3*********/
-//WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/step3'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/step3'))
 
 //WebUI.selectOptionByIndex(findTestObject('Object Repository/PurchasingReceiving/Receiving/transferToManifest'), manifest, FailureHandling.OPTIONAL)
-//WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/confirmReceiving'))
+WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/confirmReceiving'))
 
 /***********Final***************/
 WebUI.delay(5)
 
-//WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/receivingProcessComplete'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/PurchasingReceiving/Receiving/receivingProcessComplete'))
 
-//WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/finish'))
+WebUI.click(findTestObject('Object Repository/PurchasingReceiving/Receiving/finish'))
 
 /***********Verify Received Purchase Order************/
 WebUI.refresh()

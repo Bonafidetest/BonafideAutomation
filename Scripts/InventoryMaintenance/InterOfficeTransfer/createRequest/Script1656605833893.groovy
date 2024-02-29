@@ -181,7 +181,10 @@ else
 	}
 
 WebUI.waitForAlert(10, FailureHandling.OPTIONAL)
-	
+WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/CreateRequest/button_Confirm'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/InventoryMaintenance/InterOfficeTransfer/CreateRequest/button_Confirm'))
 String createAlert = WebUI.getAlertText(FailureHandling.OPTIONAL)
 
 System.out.println(createAlert)

@@ -108,7 +108,7 @@ if (orderNumber == '')
 			
 			WebUI.acceptAlert(FailureHandling.OPTIONAL)
 	
-	        WebUI.delay(300)
+	        WebUI.delay(120)
 			
 			/**************************Verify Invoice button and Link after generating Invoice********************/
 	

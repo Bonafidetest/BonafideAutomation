@@ -79,3 +79,5 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Data Setup/CreditTe
 WebUI.click(findTestObject('Object Repository/Data Setup/CreditTerms/deleteLink'))
 WebUI.waitForAlert(5)
 WebUI.acceptAlert()
+WebUI.waitForAlert(2)
+WebUI.acceptAlert()
